@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image {
+    background-image: url("./nature/25283.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+@layer utilities {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .text-color {
+        font-size: 1.875rem
+            /* 30px */
+        ;
+        line-height: 2.25rem
+            /* 36px */
+        ;
+        --tw-text-opacity: 1;
+        color: rgb(30 64 175 / var(--tw-text-opacity));
+
+    }
+
+}
+
+.demo2_header{
+    height: 100px;
+}
+
+.demo2_plant_height {
+    height: calc(100vh - 100px);
+}

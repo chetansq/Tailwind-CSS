@@ -10,41 +10,41 @@
 
 <body>
 
-    <header class="flex justify-between p-4 m-4 h-[90px]">
-        <div class="flex w-1/2 justify-around items-center">
-            <p class="text-3xl font-bold">Gallery</p>
-            <p class="w-2/3">This is a section of some simple filler text, also known as placeholder text. It shares
+    <header class="flex justify-between items-center m-auto h-[90px] w-[90%] ">
+        <div class="flex w-1/2 justify-between items-center gap-8">
+            <p class="text-3xl font-bold drop-shadow-2xl">Gallery</p>
+            <p class="text-sm text-gray-600">This is a section of some simple filler text, also known as placeholder text. It shares
                 some
                 characteristics of a real written text.</p>
         </div>
         <div>
-            <a href="" class="px-6 py-2 border rounded-md">More</a>
+            <a href="" class="px-6 py-2 border rounded-md hover:bg-gray-400 drop-shadow-2xl">More</a>
         </div>
     </header>
 
-    <main class="grid grid-cols-3 grid-rows-2 gap-6 gallery_image ">
+    <main class="grid grid-cols-3 grid-rows-2 gap-6 gallery_image w-[90%] m-auto pb-20">
         <!-- image 1 -->
-        <div class="col-start-1 col-end-1 relative">
-            <p class="absolute bottom-0">VR</p>
-            <img src="../assets/gallery_img_1.jpg" alt="VR" class="h-full w-full">
+        <div class="col-start-1 col-end-1 relative ">
+            <p class="absolute bottom-0 text-white ">VR</p>
+            <img src="../assets/gallery_img_1.jpg" alt="VR" class="h-full w-full rounded-lg">
         </div>
 
         <!-- image 2 -->
         <div class="col-start-2 col-end-4 relative">
-            <p class="absolute bottom-0">Tech</p>
-            <img src="../assets/gallery_img_2.jpg" alt="Tech" class="h-full w-full">
+            <p class="absolute bottom-0  text-white">Tech</p>
+            <img src="../assets/gallery_img_2.jpg" alt="Tech" class="h-full w-full  rounded-lg">
         </div>
 
         <!-- image 3 -->
         <div class=" col-start-1 col-end-3 relative">
-            <p class="absolute bottom-0">Dev</p>
-            <img src="../assets/gallery_img_3.jpg" alt="Dev" class="h-full w-full">
+            <p class="absolute bottom-0  text-white">Dev</p>
+            <img src="../assets/gallery_img_3.jpg" alt="Dev" class="h-full w-full  rounded-lg">
         </div>
 
         <!-- image 4 -->
         <div class="relative">
-            <p class="absolute bottom-0">Retro</p>
-            <img src="../assets/gallery_img_4.jpg" alt="Retro" class="h-full w-full">
+            <p class="absolute bottom-0  text-white">Retro</p>
+            <img src="../assets/gallery_img_4.jpg" alt="Retro" class="h-full w-full  rounded-lg">
         </div>
     </main>
 </body>

@@ -40,7 +40,6 @@
         content: "";
         @apply absolute w-16 top-16;
         border-bottom: 6px solid green;
-
     }
 
     .radius {
@@ -70,5 +69,11 @@
     .img {
         height: 50px;
         width: 50px;
+    }
+
+    .product::before {
+        content: "";
+        @apply absolute w-16 top-16;
+        border-bottom: 6px solid;
     }
 }

@@ -73,7 +73,9 @@
 
     .product::before {
         content: "";
-        @apply absolute w-16 top-16;
-        border-bottom: 6px solid;
+        @apply absolute w-16 top-0;
+        border-bottom: 6px solid ;
+        
+
     }
 }

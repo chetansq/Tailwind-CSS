@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>file upload</title>
+    <link rel="stylesheet" href="files.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main class="flex flex-col w-[40%] m-auto p-3 h-screen ">
+        <!-- for email -->
+        <div class="mb-12">
+            <p class="mb-4 text-gray-800 font-semibold">Send file to this email:</p>
+            <input type="email" placeholder="example@gmail.com" class="w-full h-12 bg-gray-50">
+        </div>
+
+        <!-- upload file -->
+        <div class="flex flex-col gap-4 h-full">
+            <p class="text-xl text-gray-800 font-bold">Upload file</p>
+            <div class="flex flex-col justify-center items-center border-2 border-dashed p-4 h-1/2 bg-gray-50 gap-2">
+                <p class="text-lg font-bold text-gray-800">Drop files here </p>
+                <p class="text-gray-400 font-bold">or</p>
+                <input type="file" class="text-gray-900 font-semibold">
+            </div>
+
+            <div class="flex justify-between p-4 bg-blue-50">
+                <p>image.jpg</p>
+                <i class="ri-close-fill"></i>
+            </div>
+
+            <div class="flex justify-between flex-col p-4 bg-blue-50 gap-4">
+                <div class="flex justify-between">
+                    <p>image.jpg</p>
+                    <i class="ri-close-fill"></i>
+                </div>
+                <label for=""> </label>
+                <progress value="70" max="100" class="w-full "></progress>
+          
+            </div>
+            <a href="" class="w-full text-center text-white bg-blue-600 py-2 rounded-lg">Send File</a>
+        </div>
+    </main>
+</body>
+
+</html>

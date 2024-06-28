@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    
+        #grad1 {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            /* For browsers that do not support gradients */
+            background-image: conic-gradient(red var(--p), black 20%);
+            border-radius: 50%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #grad1::before {
+            content: "90%";
+            position: absolute;
+            height: 90%;
+            width: 90%;
+            background-color: black;
+            z-index: 99;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            color: white;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Conic Gradient - Three Colors</h1>
+
+    <div id="grad1" style="--p:80%;"></div>
+    <div id="grad1" style="--p:70%;"></div>
+    <div id="grad1" style="--p:60%;"></div>
+    <div id="grad1" style="--p:50%;"></div>
+</body>
+
+</html>

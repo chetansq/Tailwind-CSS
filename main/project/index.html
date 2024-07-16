@@ -19,34 +19,50 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
-<body>
+<body class="bg-slate-900">
     <!-- main page section start -->
 
     <main
-        class="h-svh overflow-hidden grid md:grid-cols-2 bg-slate-900 relative after:absolute after:content-[''] after:bg-yellow-400 after:w-1/4 after:-left-24 after:h-full after:skew-x-12">
-        <img src="../components/assets/person_.jpg" alt="profile image"
-            class="h-[calc(100vh-40px)] rounded-2xl my-auto z-10  mx-[5%]">
-        <div class="z-10 flex justify-center items-start flex-col gap-4">
+        class="relative after:-left-24 after:absolute after:content-[''] grid lg:grid-cols-[45%_55%] grid-rows-[40%_60%] lg:grid-rows-1 lg:after:bg-yellow-400 after:w-1/4 after:skew-x-12 :max-w-[90%] h-svh after:h-full overflow-hidden lg">
 
+        <div class="relative z-50 flex justify-center items-center my-auto">
+            <img src="./image/person_1.jpg" alt="profile image"
+                class="lg:ml-10 rounded-full lg:rounded-md lg:w-[80%] h-[200px] lg:h-[calc(100vh-90px)] aspect-square object-cover">
+        </div>
+
+
+        <div class="z-10 flex flex-col justify-center items-center lg:items-start gap-4 md:font-sans">
             <div>
+
+
                 <p
-                    class="text-5xl relative before:absolute before:content-[''] before:w-1/12 before:rounded-xl  before:h-2 before:top-6 before:-left-20 before:bg-yellow-400 text-yellow-400 font-bold mb-2">
+                    class="relative before:top-6 before:-left-20 before:absolute before:content-[''] max-xl:before:hidden before:bg-yellow-400 mb-2 xl:ml-20 before:rounded-xl before:w-1/12 before:h-2 font-bold text-3xl text-nowrap text-yellow-400 md:text-4xl lg:text-5xl">
                     I'M
                     CHETAN DAVRA.</p>
-                <p class="text-5xl text-white font-bold">WEB DESIGNER</p>
+                <p class="m-auto md:m-0 xl:ml-20 w-fit font-bold text-3xl text-white md:text-4xl lg:text-5xl">WEB
+                    DESIGNER</p>
+
 
             </div>
 
-            <p class="text-white">I'm a Indian based web designer & front-end developer focused on crafting clean &
+            <p class="max-w-[480px] text-center text-white lg:text-left">I'm a Indian based web designer & front-end
+                developer
+                focused on
+                crafting
+                clean &
                 user-friendly
                 experiences, I am passionate about building excellent software that improves the lives of those around
                 me.</p>
 
-            <div class="border-2 rounded-full py-2 px-4">
-                <a href="">MORE ABOUTME</a>
-                <i class="ri-arrow-right-line"></i>
+            <div
+                class="relative before:top-0 before:left-0 before:absolute before:content-[''] border-2 before:bg-yellow-400 rounded-full before:rounded-full before:w-full before:h-full before:translate-x-full hover:before:translate-x-0 before:duration-500 cursor-pointer overflow-hidden">
+                <a href="" class="relative z-50 px-4 py-4 font-bold text-lg text-white">MORE ABOUTME</a>
+                <i
+                    class="inline-block relative ri-arrow-right-line z-50 bg-yellow-400 px-4 py-3 rounded-full text-2xl text-white"></i>
             </div>
         </div>
+
+
 
 
     </main>

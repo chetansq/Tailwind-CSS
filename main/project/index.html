@@ -23,7 +23,7 @@
     <!-- main page section start -->
 
     <main
-        class="relative after:-left-24 after:absolute after:content-[''] grid lg:grid-cols-[45%_55%] grid-rows-[40%_60%] lg:grid-rows-1 lg:after:bg-yellow-400 after:w-1/4 after:skew-x-12 :max-w-[90%] h-svh after:h-full overflow-hidden lg">
+        class="relative after:-left-24 after:absolute after:content-[''] grid lg:grid-cols-[45%_55%] grid-rows-[40%_60%] lg:grid-rows-1 lg:after:bg-yellow-400 after:w-1/4 after:skew-x-12 :max-w-[90%] h-svh after:h-full overflow-hidden lg ">
 
         <div class="relative z-50 flex justify-center items-center my-auto">
             <img src="./image/person_1.jpg" alt="profile image"
@@ -55,10 +55,10 @@
                 me.</p>
 
             <div
-                class="relative before:top-0 before:left-0 before:absolute before:content-[''] border-2 before:bg-yellow-400 rounded-full before:rounded-full before:w-full before:h-full before:translate-x-full hover:before:translate-x-0 before:duration-500 cursor-pointer overflow-hidden">
-                <a href="" class="relative z-50 px-4 py-4 font-bold text-lg text-white">MORE ABOUTME</a>
+                class="relative before:top-0 before:left-0 before:absolute before:content-[''] border-2 border-yellow-400 before:bg-yellow-400 rounded-full before:rounded-full before:w-full before:h-full before:translate-x-full hover:before:translate-x-0 before:duration-500 cursor-pointer overflow-hidden ">
+                <a href="" class="relative z-50 px-4 py-4 font-bold lg:text-lg text-sm  text-white">MORE ABOUTME</a>
                 <i
-                    class="inline-block relative ri-arrow-right-line z-50 bg-yellow-400 px-4 py-3 rounded-full text-2xl text-white"></i>
+                    class="inline-block relative ri-arrow-right-line z-50 bg-yellow-400 px-4 py-3 rounded-full lg:text-lg text-sm text-white"></i>
             </div>
         </div>
 
@@ -68,7 +68,7 @@
 
     <!-- About Section start -->
 
-    <div>
+    <div class="flex flex-col gap-[10%]">
         <!-- about main div start-->
 
         <!-- resume text section start -->
@@ -76,7 +76,7 @@
         <div
             class="relative flex justify-center items-center md:items-center bg-slate-700 md:bg-inherit my-[5%] w-full h-8 font-bold text-slate-800 md:text-9xl text-opacity-0 md:text-opacity-100">
             RESUME
-            <div class="top-0 absolute text-sm text-white md:text-5xl">
+            <div class="top-0 absolute text-xl text-white md:text-5xl">
                 ABOUT<span class="text-yellow-400">ME</span>
             </div>
         </div>
@@ -88,7 +88,7 @@
         <br>
         <div class="m-[5%]">
 
-            <div class="flex md:flex-row flex-col justify-around items-center gap-4 mt-4 font-bold text-slate-400">
+            <div class="flex md:flex-row flex-col justify-around items-center gap-4  my-8 font-bold text-slate-400">
 
                 <div class="flex flex-col gap-4 md:m-0 mb-8 w-full">
 
@@ -112,54 +112,160 @@
 
                         </div>
                     </div>
+
+                    <!-- download cv -->
                     <div
                         class="inline-block relative before:top-0 before:left-0 before:absolute before:content-[''] border-2 border-yellow-400 before:bg-yellow-400 rounded-full before:rounded-full w-fit before:w-full before:h-full before:translate-x-full hover:before:translate-x-0 before:duration-500 cursor-pointer overflow-hidden">
 
-                        <a href="" class="relative z-50 px-4 font-bold text-white">DOWNLOAD CV</a>
+                        <a href="" class="relative z-50 px-4 font-bold text-white lg:text-lg text-sm">DOWNLOAD CV</a>
 
                         <i
-                            class="inline-block relative z-50 bg-yellow-400 px-4 py-3 rounded-full font-bold text-white ri-download-2-fill"></i>
+                            class="inline-block relative z-50 bg-yellow-400 px-4 py-3 rounded-full font-bold text-white ri-download-2-fill lg:text-lg text-sm"></i>
                     </div>
                 </div>
+
                 <div class="gap-4 grid grid-cols-2 w-full">
 
-                    <div class="flex flex-col gap-4 border-slate-400 p-8 border">
+                    <div class="flex flex-col gap-4 border-slate-400 p-2 md:p-4 border">
                         <p class="text-6xl text-yellow-400">12<sup>+</sup></p>
                         <p
-                            class="relative before:top-3 left-12 before:-left-10 before:absolute before:content-[''] before:bg-white before:w-[10%] before:h-[1px]">
+                            class="relative before:top-3 left-10  md:left-12 before:-left-6 lg:before:-left-10 before:absolute before:content-[''] before:bg-white before:w-[8%] before:h-[1px] ">
                             YEARS OF
                             <span class="">EXPERIENCE</span>
                         </p>
                     </div>
 
-                    <div class="flex flex-col gap-4 border-slate-400 p-8 border">
+                    <div class="flex flex-col gap-4 border-slate-400 p-2 md:p-4 border">
                         <p class="text-6xl text-yellow-400">97<sup>+</sup></p>
                         <p
-                            class="relative before:top-3 left-12 before:-left-10 before:absolute before:content-[''] before:bg-white before:w-[10%] before:h-[1px] text-wrap object-cover">
+                            class="relative before:top-3 left-10  md:left-12 before:-left-6 lg:before:-left-10 before:absolute before:content-[''] before:bg-white before:w-[8%] before:h-[1px] text-wrap object-cover">
                             COMPLETED <span> PROJECTS</span></p>
                     </div>
 
-                    <div class="flex flex-col gap-4 border-slate-400 p-8 border">
+                    <div class="flex flex-col gap-4 border-slate-400 p-2 md:p-4 border">
                         <p class="text-6xl text-yellow-400">81<sup>+</sup></p>
                         <p
-                            class="relative before:top-3 left-12 before:-left-10 before:absolute before:content-[''] before:bg-white before:w-[10%] before:h-[1px] text-wrap">
+                            class="relative before:top-3 left-10  md:left-12 before:-left-6 lg:before:-left-10 before:absolute before:content-[''] before:bg-white before:w-[8%] before:h-[1px] text-wrap">
                             HAPPY <span> CUSTOMERS</span></p>
                     </div>
 
-                    <div class="flex flex-col gap-4 border-slate-400 p-8 border">
+                    <div class="flex flex-col gap-4 border-slate-400 p-2 md:p-4 border">
                         <p class="text-6xl text-yellow-400">53<sup>+</sup></p>
                         <p
-                            class="relative before:top-3 left-12 before:-left-10 before:absolute before:content-[''] before:bg-white before:w-[10%] before:h-[1px] text-wrap">
+                            class="relative before:top-3 left-10  md:left-12 before:-left-6 lg:before:-left-10 before:absolute before:content-[''] before:bg-white before:w-[8%] before:h-[1px] text-wrap">
                             AWARDS WON</p>
                     </div>
 
                 </div>
             </div>
 
-            <!-- download cv -->
 
         </div>
         <!-- personal Info section end -->
+
+        <hr class="w-1/2 m-auto" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(129, 129, 129, 0.75), rgba(0, 0, 0, 0));border: 0;
+  height: 1px;">
+
+        <!-- skills section start  -->
+        <div class="">
+            <p class="uppercase text-center font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white my-[5%]">my
+                skills</p>
+            <div class="grid h-full m-auto grid-cols-2 md:grid-cols-3  lg:grid-cols-4 lg:grid-rows-2 w-[90%] gap-16">
+
+                <!-- html -->
+
+                <div class=" flex flex-col justify-center items-center ">
+
+                    <div class="flex justify-center items-center grad relative h-[200px] rounded-full  w-[200px] bg-slate-900 before:absolute before:content-['90%'] before:flex before:justify-center before:items-center  before:h-[180px] before:w-[180px] before:bg-slate-900 before:rounded-full before:text-white before:m-auto before:z-50"
+                        style="--p:90%; ">
+
+                    </div>
+                    <p class="text-center text-white mt-4"> HTML </p>
+                </div>
+
+                <!-- css -->
+
+                <div class=" flex flex-col justify-center items-center">
+
+                    <div class="flex justify-center items-center grad relative h-[200px] rounded-full  w-[200px] bg-slate-900 before:absolute before:content-['85%'] before:flex before:justify-center before:items-center  before:h-[180px] before:w-[180px] before:bg-slate-900 before:rounded-full before:text-white before:m-auto before:z-50"
+                        style="--p:85%; ">
+
+                    </div>
+                    <p class="text-center text-white mt-4"> CSS </p>
+                </div>
+
+                <!-- scss -->
+
+
+                <div class=" flex flex-col justify-center items-center">
+
+                    <div class="flex justify-center items-center grad relative h-[200px] rounded-full  w-[200px] bg-slate-900 before:absolute before:content-['80%'] before:flex before:justify-center before:items-center  before:h-[180px] before:w-[180px] before:bg-slate-900 before:rounded-full before:text-white before:m-auto before:z-50"
+                        style="--p:80%; ">
+
+                    </div>
+                    <p class="text-center text-white mt-4"> SASS </p>
+                </div>
+                <!-- tailwind -->
+
+
+                <div class=" flex flex-col justify-center items-center">
+
+                    <div class="flex justify-center items-center grad relative h-[200px] rounded-full  w-[200px] bg-slate-900 before:absolute before:content-['90%'] before:flex before:justify-center before:items-center  before:h-[180px] before:w-[180px] before:bg-slate-900 before:rounded-full before:text-white before:m-auto before:z-50"
+                        style="--p:90%; ">
+
+                    </div>
+                    <p class="text-center text-white mt-4"> TAILWIND </p>
+                </div>
+
+                <!-- javascript -->
+
+                <div class=" flex flex-col justify-center items-center">
+
+                    <div class="flex justify-center items-center grad relative h-[200px] rounded-full  w-[200px] bg-slate-900 before:absolute before:content-['50%'] before:flex before:justify-center before:items-center  before:h-[180px] before:w-[180px] before:bg-slate-900 before:rounded-full before:text-white before:m-auto before:z-50"
+                        style="--p:50%; ">
+
+                    </div>
+                    <p class="text-center text-white mt-4"> JAVA SCRIPT </p>
+                </div>
+
+                <!-- bootstrap -->
+
+                <div class=" flex flex-col justify-center items-center">
+
+                    <div class="flex justify-center items-center grad relative border-2 border-yellow-400 h-[200px] rounded-full  w-[200px] bg-slate-900 before:absolute before:content-['0%'] before:flex before:justify-center before:items-center  before:h-[180px] before:w-[180px] before:bg-slate-900 before:rounded-full before:text-white before:m-auto before:z-50"
+                        style="--p:0%; ">
+
+                    </div>
+                    <p class="text-center text-white mt-4"> BOOTSTRAP </p>
+                </div>
+
+                <!-- React js -->
+
+                <div class=" flex flex-col justify-center items-center">
+
+                    <div class="flex justify-center items-center grad border-2 border-yellow-400 relative h-[200px] rounded-full  w-[200px] bg-slate-900 before:absolute before:content-['0%'] before:flex before:justify-center before:items-center  before:h-[180px] before:w-[180px] before:bg-slate-900 before:rounded-full before:text-white before:m-auto before:z-50"
+                        style="--p:0%; ">
+
+                    </div>
+                    <p class="text-center text-white mt-4"> REACT </p>
+                </div>
+
+                <!-- other -->
+
+                <div class=" flex flex-col justify-center items-center">
+
+                    <div class="flex justify-center items-center grad relative h-[200px] rounded-full  w-[200px] bg-slate-900 before:absolute before:content-['20%'] before:flex before:justify-center before:items-center  before:h-[180px] before:w-[180px] before:bg-slate-900 before:rounded-full before:text-white before:m-auto before:z-50"
+                        style="--p:20%; ">
+
+                    </div>
+                    <p class="text-center text-white mt-4"> OTHER </p>
+                </div>
+            </div>
+        </div>
+        <!-- skills section end -->
+
+
+
 
         <!-- about main div end-->
     </div>

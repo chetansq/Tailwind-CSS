@@ -19,58 +19,74 @@
     <!-- remix icon -->
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- font awesome icon -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css">
 </head>
 
 <body class="bg-slate-900">
     <!-- main page section start -->
+    <div class="grid grid-cols-[90%_10%]" id="home">
+        <main
+            class="relative after:-left-24 after:absolute after:content-[''] grid lg:grid-cols-[45%_55%] grid-rows-[40%_60%] lg:grid-rows-1 lg:after:bg-yellow-400 after:w-1/4 after:skew-x-12 lg:max-w-[90%] h-svh after:h-full overflow-hidden ">
 
-    <main
-        class="relative after:-left-24 after:absolute after:content-[''] grid lg:grid-cols-[45%_55%] grid-rows-[40%_60%] lg:grid-rows-1 lg:after:bg-yellow-400 after:w-1/4 after:skew-x-12 lg:max-w-[90%] h-svh after:h-full overflow-hidden ">
-
-        <div class="relative z-50 flex justify-center items-center my-auto">
-            <img src="./image/person_1.jpg" alt="profile image"
-                class="lg:ml-10 rounded-full lg:rounded-md lg:w-[80%] h-[200px] lg:h-[calc(100vh-90px)] aspect-square object-cover">
-        </div>
-
-
-        <div class="z-10 flex flex-col justify-center items-center lg:items-start gap-4 md:font-sans">
-            <div>
-
-
-                <p
-                    class="relative before:top-6 before:-left-20 before:absolute before:content-[''] max-xl:before:hidden before:bg-yellow-400 mb-2 xl:ml-20 before:rounded-xl before:w-1/12 before:h-2 font-bold text-3xl text-nowrap text-yellow-400 md:text-4xl lg:text-5xl">
-                    I'M
-                    CHETAN DAVRA.</p>
-                <p class="m-auto md:m-0 xl:ml-20 w-fit font-bold text-3xl text-white md:text-4xl lg:text-5xl">WEB
-                    DESIGNER</p>
-
-
+            <div class="relative z-50 flex justify-center items-center my-auto">
+                <img src="./image/person_1.jpg" alt="profile image"
+                    class="lg:ml-10 rounded-full lg:rounded-md lg:w-[80%] h-[200px] lg:h-[calc(100vh-90px)] aspect-square object-cover">
             </div>
 
-            <p class="max-w-[480px] text-center text-white lg:text-left">I'm a Indian based web designer & front-end
-                developer
-                focused on
-                crafting
-                clean &
-                user-friendly
-                experiences, I am passionate about building excellent software that improves the lives of those around
-                me.</p>
 
-            <div
-                class="relative before:top-0 before:left-0 before:absolute before:content-[''] border-2 border-yellow-400 before:bg-yellow-400 rounded-full before:rounded-full before:w-full before:h-full before:translate-x-full hover:before:translate-x-0 before:duration-500 cursor-pointer overflow-hidden">
-                <a href="" class="relative z-50 px-4 py-4 font-bold text-sm text-white lg:text-lg">MORE ABOUTME</a>
-                <i
-                    class="inline-block relative ri-arrow-right-line z-50 bg-yellow-400 px-4 py-3 rounded-full text-sm text-white lg:text-lg"></i>
+            <div class="z-10 flex flex-col justify-center items-center lg:items-start gap-4 md:font-sans">
+                <div>
+
+
+                    <p
+                        class="relative before:top-6 before:-left-20 before:absolute before:content-[''] max-xl:before:hidden before:bg-yellow-400 mb-2 xl:ml-20 before:rounded-xl before:w-1/12 before:h-2 font-bold text-3xl text-nowrap text-yellow-400 md:text-4xl lg:text-5xl">
+                        I'M
+                        CHETAN DAVRA.</p>
+                    <p class="m-auto md:m-0 xl:ml-20 w-fit font-bold text-3xl text-white md:text-4xl lg:text-5xl">WEB
+                        DESIGNER</p>
+
+
+                </div>
+
+                <p class="max-w-[480px] text-center text-white lg:text-left">I'm a Indian based web designer & front-end
+                    developer
+                    focused on
+                    crafting
+                    clean &
+                    user-friendly
+                    experiences, I am passionate about building excellent software that improves the lives of those
+                    around
+                    me.</p>
+
+                <div
+                    class="relative before:top-0 before:left-0 before:absolute before:content-[''] border-2 border-yellow-400 before:bg-yellow-400 rounded-full before:rounded-full before:w-full before:h-full before:translate-x-full hover:before:translate-x-0 before:duration-500 cursor-pointer overflow-hidden">
+                    <a href="" class="relative z-50 px-4 py-4 font-bold text-sm text-white lg:text-lg">MORE ABOUTME</a>
+                    <i
+                        class="inline-block relative ri-arrow-right-line z-50 bg-yellow-400 px-4 py-3 rounded-full text-sm text-white lg:text-lg"></i>
+                </div>
             </div>
+
+
+
+        </main>
+
+        <div class="flex flex-col text-2xl fixed right-10 justify-center items-center h-full gap-6">
+
+            <a href="#home"> <i class="ri-home-gear-fill bg-yellow-400 rounded-full p-2 text-2xl"></i></a>
+            <a href="#about"><i class="ri-user-3-fill  bg-yellow-400 rounded-full p-2 text-2xl"></i></a>
+            <a href="#portfolio"><i class="ri-briefcase-4-fill  bg-yellow-400 rounded-full p-2 text-2xl"></i></a>
+            <a href="#contact"><i class="ri-mail-open-fill  bg-yellow-400 rounded-full p-2 text-2xl"></i></a>
+            <a href="#blog"><i class="ri-chat-1-fill  bg-yellow-400 rounded-full p-2 text-2xl"></i></a>
         </div>
-
-    </main>
-
+    </div>
     <!-- main page section end -->
 
     <!-- About Section start -->
 
-    <div class="flex flex-col gap-[10%] m-auto w-[90%]">
+    <div class="flex flex-col gap-[10%] m-auto w-[90%]" id="about">
         <!-- about main div start-->
 
         <!-- resume text section start -->
@@ -376,7 +392,7 @@
 
     <!-- Portfolio Section start -->
 
-    <div class="mx-[7%]">
+    <div class="mx-[7%]" id="Portfolio">
         <div
             class="relative flex justify-center items-center md:items-center bg-slate-700 md:bg-inherit my-[10%] w-full h-8 font-bold text-slate-800 md:text-8xl lg:text-9xl text-opacity-0 md:text-opacity-100">
             WORKS
@@ -544,7 +560,7 @@
 
     <!-- contact section start  -->
 
-    <div class=" lg:mx-[7%] m-auto mb-4">
+    <div class=" lg:mx-[7%] m-auto mb-4" id="contact">
 
         <!-- contact -->
         <div
@@ -574,7 +590,7 @@
                     </span>
                     <div>
                         <p class="uppercase text-white  text-sm text-opacity-80 ">mail me</p>
-                        <p class="text-pretty text-white  font-bold">steve@mail.com</p>
+                        <p class="text-pretty text-white  font-bold">steve@gmail.com</p>
                     </div>
                 </div>
 
@@ -650,12 +666,165 @@
 
     <!-- Blog section start -->
 
-    <div
-        class="relative uppercase flex justify-center items-center md:items-center bg-slate-700 md:bg-inherit my-[10%] w-full h-8 font-bold text-slate-800 md:text-8xl lg:text-9xl text-opacity-0 md:text-opacity-100">
-        posts
-        <div class=" md:top-0 absolute text-white text-xl md:text-5xl lg:text-[50px]">
-            my <span class="text-yellow-400">blog</span>
+    <div class="" id="blog">
+
+        <div
+            class="relative uppercase flex justify-center items-center md:items-center bg-slate-700 md:bg-inherit my-[8%] w-full h-8 font-extrabold text-slate-800 md:text-8xl lg:text-9xl text-opacity-0 md:text-opacity-100">
+            posts
+            <div class=" md:top-0 absolute text-white text-xl md:text-5xl lg:text-[50px] font-bold">
+                my <span class="text-yellow-400">blog</span>
+            </div>
         </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 w-[79%] m-auto mb-10">
+
+            <!-- card 1 -->
+
+            <div class="overflow-hidden object-cover rounded-md bg-gray-800">
+
+                <div class="overflow-hidden">
+                    <a href="">
+                        <img src="./image/blog-post-1.jpg" alt=""
+                            class="transition-all duration-300 hover:scale-125 hover:duration-300">
+                    </a>
+                </div>
+
+                <div class="py-4 px-6 border-t-4 border-yellow-400">
+                    <a href=""
+                        class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
+                        How to Own Your Audience by Creating an Email List
+                    </a>
+                    <p class="text-white opacity-90 mt-4 text-lg ">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed
+                        do
+                        eiusmod tempor incididunt ut
+                        labore ...</p>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+
+            <div class="overflow-hidden object-cover rounded-md bg-gray-800">
+
+                <div class="overflow-hidden">
+                    <a href="">
+                        <img src="./image/blog-post-2.jpg" alt=""
+                            class="transition-all duration-300 hover:scale-125 hover:duration-300">
+                    </a>
+                </div>
+
+                <div class="py-4 px-6 border-t-4 border-yellow-400">
+                    <a href=""
+                        class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
+                        Top 10 Toolkits for Deep Learning in 2020
+                    </a>
+                    <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed
+                        do
+                        eiusmod tempor incididunt ut
+                        labore ...</p>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+
+            <div class="overflow-hidden object-cover rounded-md bg-gray-800">
+
+                <div class="overflow-hidden">
+                    <a href="">
+                        <img src="./image/blog-post-3.jpg" alt=""
+                            class="transition-all duration-300 hover:scale-125 hover:duration-300">
+                    </a>
+                </div>
+
+                <div class="py-4 px-6 border-t-4 border-yellow-400">
+                    <a href=""
+                        class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
+                        Everything You Need to Know About Web Accessibility
+                    </a>
+                    <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed
+                        do
+                        eiusmod tempor incididunt ut
+                        labore ...</p>
+                </div>
+            </div>
+
+            <!-- card 4 -->
+
+            <div class="overflow-hidden object-cover rounded-md bg-gray-800">
+
+                <div class="overflow-hidden">
+                    <a href="">
+                        <img src="./image/blog-post-4.jpg" alt=""
+                            class="transition-all duration-300 hover:scale-125 hover:duration-300">
+                    </a>
+                </div>
+
+                <div class="py-4 px-6 border-t-4 border-yellow-400">
+                    <a href=""
+                        class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
+                        How to Inject Humor & Comedy Into Your Brand
+                    </a>
+                    <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed
+                        do
+                        eiusmod tempor incididunt ut
+                        labore ...</p>
+                </div>
+            </div>
+
+            <!-- card 5 -->
+
+            <div class="overflow-hidden object-cover rounded-md bg-gray-800">
+
+                <div class="overflow-hidden">
+                    <a href="">
+                        <img src="./image/blog-post-5.jpg" alt=""
+                            class="transition-all duration-300 hover:scale-125 hover:duration-300">
+                    </a>
+                </div>
+
+                <div class="py-4 px-6 border-t-4 border-yellow-400">
+                    <a href=""
+                        class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
+                        Women in Web Design: How To Achieve Success
+                    </a>
+                    <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed
+                        do
+                        eiusmod tempor incididunt ut
+                        labore ...</p>
+                </div>
+            </div>
+
+            <!-- card 6 -->
+
+            <div class="overflow-hidden object-cover rounded-md bg-gray-800">
+
+                <div class="overflow-hidden">
+                    <a href="">
+                        <img src="./image/blog-post-6.jpg" alt=""
+                            class="transition-all duration-300 hover:scale-125 hover:duration-300">
+                    </a>
+                </div>
+
+                <div class="py-4 px-6 border-t-4 border-yellow-400">
+                    <a href=""
+                        class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
+                        Evergreen versus topical content: An overview
+                    </a>
+                    <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed
+                        do
+                        eiusmod tempor incididunt ut
+                        labore ...</p>
+                </div>
+            </div>
+
+
+        </div>
+
     </div>
 
     <!-- Blog section end -->

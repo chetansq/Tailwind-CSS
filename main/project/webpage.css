@@ -1740,6 +1740,30 @@ video {
   line-height: 1rem;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[17px\] {
+  font-size: 17px;
+}
+
+.text-\[18\.5px\] {
+  font-size: 18.5px;
+}
+
+.text-\[178px\] {
+  font-size: 178px;
+}
+
+.text-\[1px\] {
+  font-size: 1px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1905,6 +1929,18 @@ video {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[18\.px\] {
+  color: 18.px;
+}
+
+.text-\[18\] {
+  color: 18;
 }
 
 .text-opacity-0 {

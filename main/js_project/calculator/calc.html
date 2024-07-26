@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+
+    <link rel="stylesheet" href="calc.css">
+
+    <style>
+        p {
+
+            padding: 1rem;
+            margin: 10px;
+            border-radius: 10%;
+            font-size: larger;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+            transition-duration: 700ms;
+        }
+
+        p:hover {
+            color: red;
+            background-color: azure;
+            transition-duration: 700ms;
+
+        }
+
+        .pad {
+            padding: 20px 26px;
+        }
+    </style>
+
+</head>
+
+<body class="bg-black">
+    <div class="grid grid-cols-1 grid-rows-6  w-1/4  m-auto p-6">
+        <div class="w-full">
+            <input type="text" placeholder="0"
+                class="w-full text-right text-2xl p-2 shadow-inner shadow-black rounded-md">
+        </div>
+        <div class=" flex justify-around items-center">
+            <p class="pad">C</p>
+            <p class="pad">%</p>
+            <p class="pad">/</p>
+            <p class="pad">*</p>
+        </div>
+
+        <div class=" flex justify-around items-center">
+            <p class="pad">7</p>
+            <p class="pad">8</p>
+            <p class="pad">9</p>
+            <p class="pad"> - </p>
+        </div>
+
+        <div class=" flex justify-around items-center">
+            <p class="pad">4</p>
+            <p class="pad">5</p>
+            <p class="pad">6</p>
+            <p class="pad">+</p>
+        </div>
+
+        <div class=" flex justify-around items-center">
+            <p class="pad">1</p>
+            <p class="pad">2</p>
+            <p class="pad">3</p>
+            <p class="pad">=</p>
+        </div>
+        <div class=" flex justify-around items-center">
+            <p class="pad">0</p>
+            <p class="pad">.</p>
+            <p>de</p>
+            <p>ac</p>
+        </div>
+    </div>
+</body>
+
+</html>

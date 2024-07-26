@@ -28,18 +28,70 @@
 </head>
 
 <body class="bg-slate-900 ">
-    <!-- 
-    <a href="" class="dark:open:select-all">
-        <i class="ri-sun-fill"></i>
-        <i class="ri-moon-fill  bg-black dark:bg-white"></i>
-    </a> -->
+
+    <!-- navbar start -->
+
+    <div class="" id="nav">
+
+        <div
+            class="flex flex-col text-2xl fixed -right-10  justify-center items-center  h-full w-[10%] gap-6 text-slate-900 pr-12">
+
+            <div class="w-[137px] overflow-hidden mr-24 rounded-full">
+                <div
+                    class=" rounded-full  flex justify-end items-center relative before:absolute before:content-['Home'] before:h-full before:w-full right-0  before:left-0 before:text-lg before:flex before:justify-start before:items-center before:bg-yellow-400 before:pl-4 before:rounded-full before:text-white before:translate-x-full hover:before:translate-x-0 before:duration-500  ">
+
+                    <a href="#home" class="relative py-1 inline-block bg-yellow-400 rounded-full">
+                        <i class="ri-home-gear-fill rounded-full p-1 md:p-2 text-xs md:text-2xl text-slate-800"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div
+                class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['About'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700">
+
+                <a href="#about" class="flex justify-end items-center relative z-50 ">
+                    <i
+                        class="ri-user-3-fill  bg-yellow-400 rounded-full  px-2 py-1  text-xs md:text-2xl text-slate-800"></i>
+                </a>
+            </div>
+
+            <div
+                class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['Portfolio'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700">
+                <a href="#portfolio" class="flex justify-end items-center relative z-50 ">
+                    <i
+                        class="ri-briefcase-4-fill  bg-yellow-400 rounded-full px-2 py-1 text-xs md:text-2xl text-slate-800"></i>
+                </a>
+            </div>
+
+            <div
+                class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['Contact'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700">
+                <a href="#contact" class="flex justify-end items-center relative z-50 ">
+                    <i
+                        class="ri-mail-open-fill  bg-yellow-400 rounded-full px-2 py-1 text-xs md:text-2xl text-slate-800"></i>
+                </a>
+            </div>
+
+            <div class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['Blog'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700"
+                id="blogbtn">
+
+                <a href="#blog" class="flex justify-end items-center relative z-50 ">
+                    <i class="ri-chat-1-fill  bg-yellow-400 rounded-full px-2 py-1 text-xs md:text-2xl "></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <!-- navbar end -->
+
+
     <!-- main page section start -->
-    <div class="grid grid-cols-[90%_10%]" id="home">
+    <div class="grid grid-cols-[90%_10%]" id="homepage">
         <main
             class="relative after:-left-24 after:absolute after:content-[''] grid lg:grid-cols-[45%_55%] grid-rows-[40%_60%] lg:grid-rows-1 lg:after:bg-yellow-400 after:w-1/4 after:skew-x-12 lg:max-w-[90%] h-svh after:h-full overflow-hidden ">
 
             <div class="relative z-50 flex justify-center items-center my-auto">
-                <img src="./image/person_.jpg" alt="profile image"
+                <img src="./image/person_1.jpg" alt="profile image"
                     class="lg:ml-10 rounded-full lg:rounded-md lg:w-[80%] h-[200px] lg:h-[calc(100vh-90px)] aspect-square object-cover">
             </div>
 
@@ -74,836 +126,807 @@
             </div>
 
         </main>
-
-        <!-- <div>
-            <button type="button" data-collapse-toggle=""><i class="ri-menu-fill"></i>
-
-            </button>
-        </div> -->
-
-        <!-- navbar start -->
-
-        <div class="" id="nav">
-
-            <div
-                class="flex flex-col text-2xl fixed -right-10  justify-center items-center  h-full w-[10%] gap-6 text-slate-900 pr-12">
-
-                <div class="w-[137px] overflow-hidden mr-24 rounded-full">
-                    <div
-                        class=" rounded-full  flex justify-end items-center relative before:absolute before:content-['Home'] before:h-full before:w-full right-0  before:left-0 before:text-lg before:flex before:justify-start before:items-center before:bg-yellow-400 before:pl-4 before:rounded-full before:text-white before:translate-x-full hover:before:translate-x-0 before:duration-500  ">
-
-                        <a href="#home" class="relative py-1 inline-block bg-yellow-400 rounded-full">
-                            <i class="ri-home-gear-fill rounded-full p-1 md:p-2 text-xs md:text-2xl"></i>
-                        </a>
-                    </div>
-                </div>
-
-
-                <div
-                    class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['About'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700">
-
-                    <a href="#about" class="flex justify-end items-center relative z-50 ">
-                        <i class="ri-user-3-fill  bg-yellow-400 rounded-full  px-2 py-1  text-xs md:text-2xl"></i>
-                    </a>
-                </div>
-
-                <div
-                    class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['Portfolio'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700">
-                    <a href="#portfolio" class="flex justify-end items-center relative z-50 ">
-                        <i class="ri-briefcase-4-fill  bg-yellow-400 rounded-full px-2 py-1 text-xs md:text-2xl"></i>
-                    </a>
-                </div>
-
-                <div
-                    class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['Contact'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700">
-                    <a href="#contact" class="flex justify-end items-center relative z-50 ">
-                        <i class="ri-mail-open-fill  bg-yellow-400 rounded-full px-2 py-1 text-xs md:text-2xl"></i>
-                    </a>
-                </div>
-
-                <div
-                    class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['Blog'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700">
-
-                    <a href="#blog" class="flex justify-end items-center relative z-50 ">
-                        <i class="ri-chat-1-fill  bg-yellow-400 rounded-full px-2 py-1 text-xs md:text-2xl"></i>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-        <!-- navbar end -->
     </div>
     <!-- main page section end -->
 
     <!-- About Section start -->
+    <div class="hidden">
+        <div class="flex flex-col gap-[10%] m-auto w-[90%] " id="about">
+            <!-- about main div start-->
 
-    <div class="flex flex-col gap-[10%] m-auto w-[90%]" id="about">
-        <!-- about main div start-->
+            <!-- resume text section start -->
 
-        <!-- resume text section start -->
-
-        <div
-            class="relative flex justify-center items-center md:items-center bg-slate-700 md:bg-inherit mt-[10%] w-full h-8 font-extrabold text-slate-800 md:text-8xl lg:text-9xl text-opacity-0 md:text-opacity-100">
-            RESUME
-            <div class=" md:top-0 absolute text-white text-xl md:text-5xl lg:text-[50px]">
-                ABOUT <span class="text-yellow-400">ME</span>
-            </div>
-        </div>
-
-
-        <!-- resume text section end -->
-
-
-        <!-- personal Info section start -->
-
-        <br>
-        <div class="m-[9%]">
-
-            <div class="flex lg:flex-row flex-col justify-around items-center gap-4 my-8 font-bold text-slate-400">
-
-                <div class="flex flex-col gap-4 lg:m-0 mb-8 w-full">
-
-                    <p class="font-bold text-3xl text-slate-400 uppercase">
-                        Personal Info
-                    </p>
-                    <div class="grid sm:grid-cols-2 md:grid-cols-2 leading-10 max-sm:text-sm tracking-wider">
-                        <div class="text-slate-400 max-sm:leading-10">
-                            <p>First Name : <span class="text-white">Chetan</span></p>
-                            <p>Last Name : <span class="text-white">Davra</span></p>
-                            <p>Age : <span class="text-white">22</span></p>
-                            <p>Nationality : <span class="text-white">Indian</span></p>
-                            <p>Freelance : <span class="text-white"></span></p>
-                        </div>
-                        <div class="text-slate-400 max-sm:leading-10">
-                            <p>Address : <span class="text-white">surat</span></p>
-                            <p>Phone : <span class="text-white">+91 ..... .....</span></p>
-                            <p>Email : <span class="text-white">email@gmail.com</span></p>
-                            <p>Skype : <span class="text-white">chetan.davra</span></p>
-                            <p class="">Language : <span class="text-white">Gujarati,Hindi,English</span></p>
-
-                        </div>
-                    </div>
-
-                    <!-- download cv -->
-                    <div
-                        class="inline-block relative before:top-0 before:left-0 before:absolute before:content-[''] border-2 border-yellow-400 before:bg-yellow-400 rounded-full before:rounded-full w-fit before:w-full before:h-full before:translate-x-full hover:before:translate-x-0 before:duration-500 cursor-pointer overflow-hidden">
-
-                        <a href="" class="relative z-50 px-4 font-bold text-sm text-white lg:text-lg">DOWNLOAD
-                            CV</a>
-
-                        <i
-                            class="inline-block relative z-50 bg-yellow-400 px-4 py-3 rounded-full font-bold text-sm text-white lg:text-lg ri-download-2-fill"></i>
-                    </div>
-                </div>
-
-                <div class="gap-8 grid grid-cols-2 w-full ">
-
-                    <div class="flex flex-col gap-4 border-slate-400 p-2 md:p-4 border rounded-md">
-                        <p class="text-3xl text-yellow-400 sm:text-5xl md:text-6xl">12<sup>+</sup></p>
-                        <p
-                            class="relative before:top-3 max-sm:left-0 left-5 md:left-12 lg:before:-left-10 before:-left-6 before:absolute before:content-[''] before:bg-white before:w-[8%] before:h-[1px] text-sm md:text-[17px]  max-sm:before:hidden">
-                            YEARS OF
-                            <span class="lg:block">EXPERIENCE</span>
-                        </p>
-                    </div>
-
-
-                    <div class="flex flex-col gap-4 border-slate-400 p-2 md:p-4 border rounded-md">
-                        <p class="text-3xl text-yellow-400 sm:text-5xl md:text-6xl">97<sup>+</sup></p>
-                        <p
-                            class="relative before:top-3 max-sm:left-0 left-5  md:left-12 lg:before:-left-10 before:-left-6 before:absolute before:content-[''] before:bg-white before:w-[8%] before:h-[1px] text-sm text-wrap md:text-[17px] max-sm:before:hidden">
-                            COMPLETED <span class="lg:block"> PROJECTS</span>
-                        </p>
-                    </div>
-
-                    <div class="flex flex-col gap-4 border-slate-400 p-2 md:p-4 border rounded-md">
-                        <p class="text-3xl text-yellow-400 sm:text-5xl md:text-6xl">81<sup>+</sup></p>
-                        <p
-                            class="relative before:top-3 max-sm:left-0 left-5 md:left-12 lg:before:-left-10 before:-left-6 before:absolute before:content-[''] before:bg-white before:w-[8%] before:h-[1px] text-sm text-wrap md:text-[17px] max-sm:before:hidden">
-                            HAPPY <span class="lg:block"> CUSTOMERS</span></p>
-                    </div>
-
-                    <div class="flex flex-col gap-4 border-slate-400 p-2 md:p-4 border rounded-md ">
-                        <p class="text-3xl text-yellow-400 sm:text-5xl md:text-6xl ">53<sup>+</sup></p>
-                        <p
-                            class="relative before:top-3 max-sm:left-0 left-5 md:left-12 lg:before:-left-10 before:-left-6 before:absolute before:content-[''] before:bg-white before:w-[8%] before:h-[1px] text-sm text-wrap md:text-[17px] max-sm:before:hidden inline-block">
-                            AWARDS WON</p>
-                    </div>
-
+            <div
+                class="relative flex justify-center items-center md:items-center bg-slate-700 md:bg-inherit mt-[10%] w-full h-8 font-extrabold text-slate-800 md:text-8xl lg:text-9xl text-opacity-0 md:text-opacity-100">
+                RESUME
+                <div class=" md:top-0 absolute text-white text-xl md:text-5xl lg:text-[50px]">
+                    ABOUT <span class="text-yellow-400">ME</span>
                 </div>
             </div>
 
 
-        </div>
-        <!-- personal Info section end -->
+            <!-- resume text section end -->
 
-        <hr class="m-auto w-1/2" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(129, 129, 129, 0.75), rgba(0, 0, 0, 0));border: 0;
+
+            <!-- personal Info section start -->
+
+            <br>
+            <div class="m-[9%]">
+
+                <div class="flex lg:flex-row flex-col justify-around items-center gap-4 my-8 font-bold text-slate-400">
+
+                    <div class="flex flex-col gap-4 lg:m-0 mb-8 w-full">
+
+                        <p class="font-bold text-3xl text-slate-400 uppercase">
+                            Personal Info
+                        </p>
+                        <div class="grid sm:grid-cols-2 md:grid-cols-2 leading-10 max-sm:text-sm tracking-wider">
+                            <div class="text-slate-400 max-sm:leading-10">
+                                <p>First Name : <span class="text-white">Chetan</span></p>
+                                <p>Last Name : <span class="text-white">Davra</span></p>
+                                <p>Age : <span class="text-white">22</span></p>
+                                <p>Nationality : <span class="text-white">Indian</span></p>
+                                <p>Freelance : <span class="text-white"></span></p>
+                            </div>
+                            <div class="text-slate-400 max-sm:leading-10">
+                                <p>Address : <span class="text-white">surat</span></p>
+                                <p>Phone : <span class="text-white">+91 ..... .....</span></p>
+                                <p>Email : <span class="text-white">email@gmail.com</span></p>
+                                <p>Skype : <span class="text-white">chetan.davra</span></p>
+                                <p class="">Language : <span class="text-white">Gujarati,Hindi,English</span></p>
+
+                            </div>
+                        </div>
+
+                        <!-- download cv -->
+                        <div
+                            class="inline-block relative before:top-0 before:left-0 before:absolute before:content-[''] border-2 border-yellow-400 before:bg-yellow-400 rounded-full before:rounded-full w-fit before:w-full before:h-full before:translate-x-full hover:before:translate-x-0 before:duration-500 cursor-pointer overflow-hidden">
+
+                            <a href="" class="relative z-50 px-4 font-bold text-sm text-white lg:text-lg">DOWNLOAD
+                                CV</a>
+
+                            <i
+                                class="inline-block relative z-50 bg-yellow-400 px-4 py-3 rounded-full font-bold text-sm text-white lg:text-lg ri-download-2-fill"></i>
+                        </div>
+                    </div>
+
+                    <div class="gap-8 grid grid-cols-2 w-full ">
+
+                        <div class="flex flex-col gap-4 border-slate-400 p-2 md:p-4 border rounded-md">
+                            <p class="text-3xl text-yellow-400 sm:text-5xl md:text-6xl">12<sup>+</sup></p>
+                            <p
+                                class="relative before:top-3 max-sm:left-0 left-5 md:left-12 lg:before:-left-10 before:-left-6 before:absolute before:content-[''] before:bg-white before:w-[8%] before:h-[1px] text-sm md:text-[17px]  max-sm:before:hidden">
+                                YEARS OF
+                                <span class="lg:block">EXPERIENCE</span>
+                            </p>
+                        </div>
+
+
+                        <div class="flex flex-col gap-4 border-slate-400 p-2 md:p-4 border rounded-md">
+                            <p class="text-3xl text-yellow-400 sm:text-5xl md:text-6xl">97<sup>+</sup></p>
+                            <p
+                                class="relative before:top-3 max-sm:left-0 left-5  md:left-12 lg:before:-left-10 before:-left-6 before:absolute before:content-[''] before:bg-white before:w-[8%] before:h-[1px] text-sm text-wrap md:text-[17px] max-sm:before:hidden">
+                                COMPLETED <span class="lg:block"> PROJECTS</span>
+                            </p>
+                        </div>
+
+                        <div class="flex flex-col gap-4 border-slate-400 p-2 md:p-4 border rounded-md">
+                            <p class="text-3xl text-yellow-400 sm:text-5xl md:text-6xl">81<sup>+</sup></p>
+                            <p
+                                class="relative before:top-3 max-sm:left-0 left-5 md:left-12 lg:before:-left-10 before:-left-6 before:absolute before:content-[''] before:bg-white before:w-[8%] before:h-[1px] text-sm text-wrap md:text-[17px] max-sm:before:hidden">
+                                HAPPY <span class="lg:block"> CUSTOMERS</span></p>
+                        </div>
+
+                        <div class="flex flex-col gap-4 border-slate-400 p-2 md:p-4 border rounded-md ">
+                            <p class="text-3xl text-yellow-400 sm:text-5xl md:text-6xl ">53<sup>+</sup></p>
+                            <p
+                                class="relative before:top-3 max-sm:left-0 left-5 md:left-12 lg:before:-left-10 before:-left-6 before:absolute before:content-[''] before:bg-white before:w-[8%] before:h-[1px] text-sm text-wrap md:text-[17px] max-sm:before:hidden inline-block">
+                                AWARDS WON</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- personal Info section end -->
+
+            <hr class="m-auto w-1/2" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(129, 129, 129, 0.75), rgba(0, 0, 0, 0));border: 0;
   height: 1px;">
 
-        <!-- skills section start  -->
-        <div class="mb-24">
-            <p class="my-[5%] font-bold text-center text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl uppercase">
-                my
-                skills</p>
-            <div class="gap-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 lg:grid-rows-2 m-auto w-[80%] h-full">
+            <!-- skills section start  -->
+            <div class="mb-24">
+                <p
+                    class="my-[5%] font-bold text-center text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl uppercase">
+                    my
+                    skills</p>
+                <div class="gap-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 lg:grid-rows-2 m-auto w-[80%] h-full">
 
-                <!-- html -->
+                    <!-- html -->
 
-                <div class="flex flex-col justify-center items-center">
+                    <div class="flex flex-col justify-center items-center">
 
-                    <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['90%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white grad before:text-xl"
-                        style="--p:90%; ">
+                        <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['90%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white grad before:text-xl"
+                            style="--p:90%; ">
 
+                        </div>
+                        <p class="mt-4 text-center text-white font-bold"> HTML </p>
                     </div>
-                    <p class="mt-4 text-center text-white font-bold"> HTML </p>
-                </div>
 
-                <!-- css -->
+                    <!-- css -->
 
-                <div class="flex flex-col justify-center items-center">
+                    <div class="flex flex-col justify-center items-center">
 
-                    <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['85%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white grad before:text-xl"
-                        style="--p:85%; ">
+                        <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['85%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white grad before:text-xl"
+                            style="--p:85%; ">
 
+                        </div>
+                        <p class="mt-4 text-center text-white font-bold "> CSS </p>
                     </div>
-                    <p class="mt-4 text-center text-white font-bold "> CSS </p>
-                </div>
 
-                <!-- scss -->
+                    <!-- scss -->
 
 
-                <div class="flex flex-col justify-center items-center">
+                    <div class="flex flex-col justify-center items-center">
 
-                    <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['80%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white grad before:text-xl"
-                        style="--p:80%; ">
+                        <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['80%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white grad before:text-xl"
+                            style="--p:80%; ">
 
+                        </div>
+                        <p class="mt-4 text-center text-white font-bold"> SASS </p>
                     </div>
-                    <p class="mt-4 text-center text-white font-bold"> SASS </p>
-                </div>
-                <!-- tailwind -->
+                    <!-- tailwind -->
 
 
-                <div class="flex flex-col justify-center items-center">
+                    <div class="flex flex-col justify-center items-center">
 
-                    <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['90%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white grad before:text-xl"
-                        style="--p:90%; ">
+                        <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['90%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white grad before:text-xl"
+                            style="--p:90%; ">
 
+                        </div>
+                        <p class="mt-4 text-center text-white font-bold"> TAILWIND </p>
                     </div>
-                    <p class="mt-4 text-center text-white font-bold"> TAILWIND </p>
-                </div>
 
-                <!-- javascript -->
+                    <!-- javascript -->
 
-                <div class="flex flex-col justify-center items-center">
+                    <div class="flex flex-col justify-center items-center">
 
-                    <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['50%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white grad before:text-xl"
-                        style="--p:50%; ">
+                        <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['50%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white grad before:text-xl"
+                            style="--p:50%; ">
 
+                        </div>
+                        <p class="mt-4 text-center text-white font-bold"> JAVA SCRIPT </p>
                     </div>
-                    <p class="mt-4 text-center text-white font-bold"> JAVA SCRIPT </p>
-                </div>
 
-                <!-- bootstrap -->
+                    <!-- bootstrap -->
 
-                <div class="flex flex-col justify-center items-center">
+                    <div class="flex flex-col justify-center items-center">
 
-                    <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['0%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white grad before:text-xl"
-                        style="--p:0%; ">
+                        <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['0%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white grad before:text-xl"
+                            style="--p:0%; ">
 
+                        </div>
+                        <p class="mt-4 text-center text-white font-bold"> BOOTSTRAP </p>
                     </div>
-                    <p class="mt-4 text-center text-white font-bold"> BOOTSTRAP </p>
-                </div>
 
-                <!-- React js -->
+                    <!-- React js -->
 
-                <div class="flex flex-col justify-center items-center">
+                    <div class="flex flex-col justify-center items-center">
 
-                    <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['0%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white before:text-xl grad"
-                        style="--p:0%; ">
+                        <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['0%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white before:text-xl grad"
+                            style="--p:0%; ">
 
+                        </div>
+                        <p class="mt-4 text-center text-white font-bold"> REACT </p>
                     </div>
-                    <p class="mt-4 text-center text-white font-bold"> REACT </p>
-                </div>
 
-                <!-- other -->
+                    <!-- other -->
 
-                <div class="flex flex-col justify-center items-center">
+                    <div class="flex flex-col justify-center items-center">
 
-                    <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['20%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white before:text-xl grad"
-                        style="--p:20%; ">
+                        <div class="relative before:z-50 before:absolute flex before:flex justify-center before:justify-center items-center before:items-center before:content-['20%'] before:bg-slate-900 before:m-auto rounded-full before:rounded-full w-[120px] md:w-[140px] before:md:w-[120px] before:w-[100px] h-[120px] md:h-[140px] before:md:h-[120px] before:h-[100px] before:text-white before:text-xl grad"
+                            style="--p:20%; ">
 
+                        </div>
+                        <p class="mt-4 text-center text-white font-bold"> OTHER </p>
                     </div>
-                    <p class="mt-4 text-center text-white font-bold"> OTHER </p>
                 </div>
             </div>
-        </div>
-        <!-- skills section end -->
+            <!-- skills section end -->
 
-        <hr class="m-auto w-1/2" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(129, 129, 129, 0.75), rgba(0, 0, 0, 0));border: 0;
+            <hr class="m-auto w-1/2" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(129, 129, 129, 0.75), rgba(0, 0, 0, 0));border: 0;
   height: 1px;">
 
-        <!--EXPERIENCE & EDUCATION Section Start  -->
-        <div class="">
-            <p class=" mt-10 md:my-10 font-bold text-3xl text-center text-white uppercase"> experiences & education
-            </p>
-            <div class="gap-10 grid grid-cols-1 lg:grid-cols-2 m-auto p-10 w-[90%]  text-white">
+            <!--EXPERIENCE & EDUCATION Section Start  -->
+            <div class="">
+                <p class=" mt-10 md:my-10 font-bold text-3xl text-center text-white uppercase"> experiences & education
+                </p>
+                <div class="gap-10 grid grid-cols-1 lg:grid-cols-2 m-auto p-10 w-[90%]  text-white">
 
-                <!-- first section -->
+                    <!-- first section -->
 
-                <div class="grid grid-cols-1 w-full">
-                    <ul>
-                        <li
-                            class="relative before:top-3 before:-left-0 -z-50 before:absolute before:content-[''] before:bg-gray-500 mb-14 pl-10 before:w-[1px] h-40 before:h-full">
-                            <div class="inline-block relative top-2 -left-16 z-10 bg-yellow-400 px-4 py-3 rounded-full">
-                                <i class="relative -z-40 text-xl ri-briefcase-4-fill"></i>
-                            </div>
-                            <span
-                                class="relative text-sm top-1 md:top-0 -left-12 bg-gray-800 px-6 py-1 rounded-full">2018</span>
-                            <p class="my-4 text-sm md:text-xl uppercase">web developer <span>envato</span></p>
-                            <p class="text-sm md:text-[16px]">Lorem ipsum dolor sit amet, consectetur tempor
-                                incididunt
-                                ut labore
-                                adipisicing elit</p>
-                        </li>
+                    <div class="grid grid-cols-1 w-full">
+                        <ul>
+                            <li
+                                class="relative before:top-3 before:-left-0 -z-50 before:absolute before:content-[''] before:bg-gray-500 mb-14 pl-10 before:w-[1px] h-40 before:h-full">
+                                <div
+                                    class="inline-block relative top-2 -left-16 z-10 bg-yellow-400 px-4 py-3 rounded-full">
+                                    <i class="relative -z-40 text-xl ri-briefcase-4-fill"></i>
+                                </div>
+                                <span
+                                    class="relative text-sm top-1 md:top-0 -left-12 bg-gray-800 px-6 py-1 rounded-full">2018</span>
+                                <p class="my-4 text-sm md:text-xl uppercase">web developer <span>envato</span></p>
+                                <p class="text-sm md:text-[16px]">Lorem ipsum dolor sit amet, consectetur tempor
+                                    incididunt
+                                    ut labore
+                                    adipisicing elit</p>
+                            </li>
 
-                        <li
-                            class="relative before:top-3 before:-left-0 -z-50 before:absolute before:content-[''] before:bg-gray-500 mb-14 pl-10 before:w-[1px] h-40 before:h-full">
-                            <div class="inline-block relative top-2 -left-16 z-10 bg-yellow-400 px-4 py-3 rounded-full">
-                                <i class="relative -z-40 text-xl ri-briefcase-4-fill"></i>
-                            </div>
-                            <span
-                                class="relative text-sm top-1 md:top-0 -left-12 bg-gray-800 px-6 py-1 rounded-full">2018</span>
-                            <p class="my-4 text-sm md:text-xl uppercase">web developer <span>envato</span></p>
-                            <p class="text-sm md:text-[16px]">Lorem ipsum dolor sit amet, consectetur tempor
-                                incididunt
-                                ut labore adipisicing elit</p>
-                        </li>
+                            <li
+                                class="relative before:top-3 before:-left-0 -z-50 before:absolute before:content-[''] before:bg-gray-500 mb-14 pl-10 before:w-[1px] h-40 before:h-full">
+                                <div
+                                    class="inline-block relative top-2 -left-16 z-10 bg-yellow-400 px-4 py-3 rounded-full">
+                                    <i class="relative -z-40 text-xl ri-briefcase-4-fill"></i>
+                                </div>
+                                <span
+                                    class="relative text-sm top-1 md:top-0 -left-12 bg-gray-800 px-6 py-1 rounded-full">2018</span>
+                                <p class="my-4 text-sm md:text-xl uppercase">web developer <span>envato</span></p>
+                                <p class="text-sm md:text-[16px]">Lorem ipsum dolor sit amet, consectetur tempor
+                                    incididunt
+                                    ut labore adipisicing elit</p>
+                            </li>
 
-                        <li
-                            class="relative before:top-3 before:-left-0 -z-50 before:absolute before:content-[''] before:bg-gray-500 mb-14 pl-10 before:w-[1px] h-40 before:h-full mb">
-                            <div class="inline-block relative top-2 -left-16 z-10 bg-yellow-400 px-4 py-3 rounded-full">
-                                <i class="relative -z-40 text-xl ri-briefcase-4-fill"></i>
-                            </div>
-                            <span
-                                class="relative text-sm top-1 md:top-0 -left-12 bg-gray-800 px-6 py-1 rounded-full">2018</span>
-                            <p class="my-4 text-sm md:text-xl uppercase">web developer <span>envato</span></p>
-                            <p class="text-sm md:text-[16px]">Lorem ipsum dolor sit amet, consectetur tempor
-                                incididunt
-                                ut labore adipisicing elit</p>
-                        </li>
-                    </ul>
+                            <li
+                                class="relative before:top-3 before:-left-0 -z-50 before:absolute before:content-[''] before:bg-gray-500 mb-14 pl-10 before:w-[1px] h-40 before:h-full mb">
+                                <div
+                                    class="inline-block relative top-2 -left-16 z-10 bg-yellow-400 px-4 py-3 rounded-full">
+                                    <i class="relative -z-40 text-xl ri-briefcase-4-fill"></i>
+                                </div>
+                                <span
+                                    class="relative text-sm top-1 md:top-0 -left-12 bg-gray-800 px-6 py-1 rounded-full">2018</span>
+                                <p class="my-4 text-sm md:text-xl uppercase">web developer <span>envato</span></p>
+                                <p class="text-sm md:text-[16px]">Lorem ipsum dolor sit amet, consectetur tempor
+                                    incididunt
+                                    ut labore adipisicing elit</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- second section -->
+
+                    <div class="w-full">
+                        <ul>
+                            <li
+                                class="relative before:top-3 before:-left-0 -z-50 before:absolute before:content-[''] before:bg-gray-500 mb-14 pl-10 before:w-[1px] h-40 before:h-full">
+                                <div
+                                    class="inline-block relative top-2 -left-16 z-10 bg-yellow-400 px-4 py-3 rounded-full">
+                                    <i class="relative -z-40 ri-graduation-cap-fill text-xl"></i>
+                                </div>
+                                <span
+                                    class="relative text-sm top-1 md:top-0 -left-12 bg-gray-800 px-6 py-1 rounded-full">2015</span>
+                                <p class="my-4 text-sm md:text-xl uppercase">engineer degree <span>oxford
+                                        univercity</span>
+                                </p>
+                                <p class="text-sm md:text-[16px]">Lorem ipsum dolor sit amet, consectetur tempor
+                                    incididunt
+                                    ut labore adipisicing elit</p>
+                            </li>
+
+                            <li
+                                class="relative before:top-3 before:-left-0 -z-50 before:absolute before:content-[''] before:bg-gray-500 mb-14 pl-10 before:w-[1px] h-40 before:h-full">
+                                <div
+                                    class="inline-block relative top-2 -left-16 z-10 bg-yellow-400 px-4 py-3 rounded-full">
+                                    <i class="relative -z-40 ri-graduation-cap-fill text-xl"></i>
+                                </div>
+                                <span
+                                    class="relative text-sm top-1 md:top-0 -left-12 bg-gray-800 px-6 py-1 rounded-full">2015</span>
+                                <p class="my-4 text-sm md:text-xl uppercase">engineer degree <span>oxford
+                                        univercity</span>
+                                </p>
+                                <p class="text-sm md:text-[16px]">Lorem ipsum dolor sit amet, consectetur tempor
+                                    incididunt
+                                    ut labore adipisicing elit</p>
+                            </li>
+
+                            <li
+                                class="relative before:top-3 before:-left-0 -z-50 before:absolute before:content-[''] before:bg-gray-500 mb-14 pl-10 before:w-[1px] h-40 before:h-full">
+                                <div
+                                    class="inline-block relative top-2 -left-16 z-10 bg-yellow-400 px-4 py-3 rounded-full">
+                                    <i class="relative -z-40 ri-graduation-cap-fill text-xl"></i>
+                                </div>
+                                <span
+                                    class="relative text-sm top-1 md:top-0 -left-12 bg-gray-800 px-6 py-1 rounded-full">2015</span>
+                                <p class="my-4 text-sm md:text-xl uppercase">engineer degree <span>oxford
+                                        univercity</span>
+                                </p>
+                                <p class="text-sm md:text-[16px]">Lorem ipsum dolor sit amet, consectetur tempor
+                                    incididunt
+                                    ut labore adipisicing elit</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
-                <!-- second section -->
-
-                <div class="w-full">
-                    <ul>
-                        <li
-                            class="relative before:top-3 before:-left-0 -z-50 before:absolute before:content-[''] before:bg-gray-500 mb-14 pl-10 before:w-[1px] h-40 before:h-full">
-                            <div class="inline-block relative top-2 -left-16 z-10 bg-yellow-400 px-4 py-3 rounded-full">
-                                <i class="relative -z-40 ri-graduation-cap-fill text-xl"></i>
-                            </div>
-                            <span
-                                class="relative text-sm top-1 md:top-0 -left-12 bg-gray-800 px-6 py-1 rounded-full">2015</span>
-                            <p class="my-4 text-sm md:text-xl uppercase">engineer degree <span>oxford
-                                    univercity</span>
-                            </p>
-                            <p class="text-sm md:text-[16px]">Lorem ipsum dolor sit amet, consectetur tempor
-                                incididunt
-                                ut labore adipisicing elit</p>
-                        </li>
-
-                        <li
-                            class="relative before:top-3 before:-left-0 -z-50 before:absolute before:content-[''] before:bg-gray-500 mb-14 pl-10 before:w-[1px] h-40 before:h-full">
-                            <div class="inline-block relative top-2 -left-16 z-10 bg-yellow-400 px-4 py-3 rounded-full">
-                                <i class="relative -z-40 ri-graduation-cap-fill text-xl"></i>
-                            </div>
-                            <span
-                                class="relative text-sm top-1 md:top-0 -left-12 bg-gray-800 px-6 py-1 rounded-full">2015</span>
-                            <p class="my-4 text-sm md:text-xl uppercase">engineer degree <span>oxford
-                                    univercity</span>
-                            </p>
-                            <p class="text-sm md:text-[16px]">Lorem ipsum dolor sit amet, consectetur tempor
-                                incididunt
-                                ut labore adipisicing elit</p>
-                        </li>
-
-                        <li
-                            class="relative before:top-3 before:-left-0 -z-50 before:absolute before:content-[''] before:bg-gray-500 mb-14 pl-10 before:w-[1px] h-40 before:h-full">
-                            <div class="inline-block relative top-2 -left-16 z-10 bg-yellow-400 px-4 py-3 rounded-full">
-                                <i class="relative -z-40 ri-graduation-cap-fill text-xl"></i>
-                            </div>
-                            <span
-                                class="relative text-sm top-1 md:top-0 -left-12 bg-gray-800 px-6 py-1 rounded-full">2015</span>
-                            <p class="my-4 text-sm md:text-xl uppercase">engineer degree <span>oxford
-                                    univercity</span>
-                            </p>
-                            <p class="text-sm md:text-[16px]">Lorem ipsum dolor sit amet, consectetur tempor
-                                incididunt
-                                ut labore adipisicing elit</p>
-                        </li>
-                    </ul>
-                </div>
+                <!--EXPERIENCE & EDUCATION Section End  -->
             </div>
 
-            <!--EXPERIENCE & EDUCATION Section End  -->
+            <!-- about main div end-->
         </div>
-
-        <!-- about main div end-->
     </div>
-
     <!-- About Section end -->
 
-    <hr class="m-auto w-1/2 " style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(129, 129, 129, 0.75), rgba(0, 0, 0, 0));border: 0;
-  height:1px;">
 
     <!-- Portfolio Section start -->
-    <div id="portfolio"></div>
-    <div class="m-auto w-[86%]">
+    <div class="hidden">
 
-        <div
-            class="relative flex justify-center items-center md:items-center bg-slate-700 md:bg-inherit my-[8%] w-full h-8 font-extrabold text-slate-800 md:text-8xl lg:text-9xl text-opacity-0 md:text-opacity-100">
-            WORKS
-            <div class="top-0 absolute text-white text-xl md:text-4xl lg:text-[50px] ">
-                MY <span class="text-yellow-400">PORTFOLIO</span>
+
+        <div class="m-auto w-[86%]">
+
+            <div
+                class="relative flex justify-center items-center md:items-center bg-slate-700 md:bg-inherit my-[8%] w-full h-8 font-extrabold text-slate-800 md:text-8xl lg:text-9xl text-opacity-0 md:text-opacity-100">
+                WORKS
+                <div class="top-0 absolute text-white text-xl md:text-4xl lg:text-[50px] ">
+                    MY <span class="text-yellow-400">PORTFOLIO</span>
+                </div>
             </div>
+
+            <!-- Project section -->
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-10 sm:mx-20 my-20">
+
+                <!-- Plant components -->
+
+                <a href="../components/A_fullscreen_hero_section/plant.html">
+
+                    <div
+                        class="relative before:absolute before:content-['Plant'] before:flex before:justify-center before:items-center before:h-full before:w-full before:font-bold before:text-white before:text-xl before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
+
+                        <img src="image/ss/plant.png" alt="" class="object-cover ">
+
+                    </div>
+                </a>
+
+                <!-- Computer components -->
+
+                <a href="../components/background/hero_section.html">
+
+                    <div
+                        class="relative   before:absolute before:content-['Computer'] before:flex before:justify-center before:items-center before:h-full before:w-full before:font-bold before:text-white before:text-xl before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
+
+                        <img src="image/ss/computer.png" alt="" class="object-cover ">
+
+                    </div>
+                </a>
+
+                <!-- Call_to_Action components -->
+
+                <a href="../components/call_to_action_section/call_to_action.html">
+
+                    <div
+                        class="relative   before:absolute before:content-['Call_to_Action'] before:flex before:justify-center before:items-center before:h-full before:w-full before:font-bold before:text-white before:text-xl before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
+
+                        <img src="image/ss/calltoaction.png" alt="" class="object-cover ">
+
+                    </div>
+                </a>
+
+                <!-- grid of post components -->
+
+                <a href="../components/card_grid_for_post/card_grid.html">
+
+                    <div
+                        class="relative   before:absolute before:content-['Grid_of_Post'] before:flex before:justify-center before:items-center before:h-full before:w-full before:font-bold before:text-white before:text-xl before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
+
+                        <img src="image/ss/grid.png" alt="" class="object-cover ">
+
+                    </div>
+                </a>
+
+                <!-- Cards components -->
+
+                <a href="../components/cards/card.html">
+
+                    <div
+                        class="relative   before:absolute before:content-['Card'] before:flex before:justify-center before:items-center before:h-full before:w-full before:font-bold before:text-white before:text-xl before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
+
+                        <img src="image/ss/cards.png" alt="" class="object-cover ">
+
+                    </div>
+                </a>
+
+                <!-- FAQ Components -->
+
+                <a href="../components/FAQ_demo/FAQ.html">
+
+                    <div
+                        class="relative   before:absolute before:content-['F.A.Q'] before:flex before:justify-center before:items-center before:h-full before:w-full before:font-bold before:text-white before:text-xl before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
+
+                        <img src="image/ss/FAQ.png" alt="" class="object-cover ">
+
+                    </div>
+                </a>
+
+                <!-- File Upload Components -->
+
+                <a href="../components/file_upload_form/file.html">
+
+                    <div
+                        class="relative   before:absolute before:content-['File_Upload'] before:flex before:justify-center before:items-center before:font-bold before:text-white before:text-xl before:h-full before:w-full before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
+
+                        <img src="image/ss/file_upload.png" alt="" class="object-cover ">
+
+                    </div>
+                </a>
+
+                <!-- Footer Components -->
+
+                <a href="../components/footer/footer.html">
+
+                    <div
+                        class="relative   before:absolute before:content-['Footer'] before:flex before:justify-center before:items-center before:font-bold before:text-white before:text-xl before:h-full before:w-full before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
+
+                        <img src="image/ss/footer.png" alt="" class="object-cover ">
+
+                    </div>
+                </a>
+
+                <!-- Image Gallery Components -->
+
+                <a href="../components/gallery/image_gallery.html">
+
+                    <div
+                        class="relative   before:absolute before:content-['Image_Gallery'] before:flex before:justify-center before:items-center before:font-bold before:text-white before:text-xl before:h-full before:w-full before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
+
+                        <img src="image/ss/gallery.png" alt="" class="object-cover ">
+
+                    </div>
+                </a>
+
+                <!-- product page Components -->
+
+                <a href="../components/Product_page_cloth/cloth.html">
+
+                    <div
+                        class="relative   before:absolute before:content-['Cloth'] before:flex before:justify-center before:items-center before:font-bold before:text-white before:text-xl before:h-full before:w-full before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
+
+                        <img src="image/ss/product.png" alt="" class="object-cover ">
+
+                    </div>
+                </a>
+
+                <!-- Watch components -->
+
+                <a href="../components/product_page_watch/product.html">
+
+                    <div
+                        class="relative   before:absolute before:content-['Watch'] before:flex before:justify-center before:items-center before:font-bold before:text-white before:text-xl before:h-full before:w-full before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
+
+                        <img src="image/ss/watch.png" alt="" class="object-cover ">
+
+                    </div>
+                </a>
+
+                <!-- Regstration Components -->
+
+                <a href="../components/responsive_registration_form/registration.html">
+
+                    <div
+                        class="relative   before:absolute before:content-['Registration'] before:flex before:justify-center before:items-center before:font-bold before:text-white before:text-xl before:h-full before:w-full before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
+
+                        <img src="image/ss/registration.png" alt="" class="object-cover ">
+
+                    </div>
+                </a>
+
+
+            </div>
+
         </div>
-
-        <!-- Project section -->
-
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-10 sm:mx-20 my-20">
-
-            <!-- Plant components -->
-
-            <a href="../components/A_fullscreen_hero_section/plant.html">
-
-                <div
-                    class="relative before:absolute before:content-['Plant'] before:flex before:justify-center before:items-center before:h-full before:w-full before:font-bold before:text-white before:text-xl before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
-
-                    <img src="image/ss/plant.png" alt="" class="object-cover ">
-
-                </div>
-            </a>
-
-            <!-- Computer components -->
-
-            <a href="../components/background/hero_section.html">
-
-                <div
-                    class="relative   before:absolute before:content-['Computer'] before:flex before:justify-center before:items-center before:h-full before:w-full before:font-bold before:text-white before:text-xl before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
-
-                    <img src="image/ss/computer.png" alt="" class="object-cover ">
-
-                </div>
-            </a>
-
-            <!-- Call_to_Action components -->
-
-            <a href="../components/call_to_action_section/call_to_action.html">
-
-                <div
-                    class="relative   before:absolute before:content-['Call_to_Action'] before:flex before:justify-center before:items-center before:h-full before:w-full before:font-bold before:text-white before:text-xl before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
-
-                    <img src="image/ss/calltoaction.png" alt="" class="object-cover ">
-
-                </div>
-            </a>
-
-            <!-- grid of post components -->
-
-            <a href="../components/card_grid_for_post/card_grid.html">
-
-                <div
-                    class="relative   before:absolute before:content-['Grid_of_Post'] before:flex before:justify-center before:items-center before:h-full before:w-full before:font-bold before:text-white before:text-xl before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
-
-                    <img src="image/ss/grid.png" alt="" class="object-cover ">
-
-                </div>
-            </a>
-
-            <!-- Cards components -->
-
-            <a href="../components/cards/card.html">
-
-                <div
-                    class="relative   before:absolute before:content-['Card'] before:flex before:justify-center before:items-center before:h-full before:w-full before:font-bold before:text-white before:text-xl before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
-
-                    <img src="image/ss/cards.png" alt="" class="object-cover ">
-
-                </div>
-            </a>
-
-            <!-- FAQ Components -->
-
-            <a href="../components/FAQ_demo/FAQ.html">
-
-                <div
-                    class="relative   before:absolute before:content-['F.A.Q'] before:flex before:justify-center before:items-center before:h-full before:w-full before:font-bold before:text-white before:text-xl before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
-
-                    <img src="image/ss/FAQ.png" alt="" class="object-cover ">
-
-                </div>
-            </a>
-
-            <!-- File Upload Components -->
-
-            <a href="../components/file_upload_form/file.html">
-
-                <div
-                    class="relative   before:absolute before:content-['File_Upload'] before:flex before:justify-center before:items-center before:font-bold before:text-white before:text-xl before:h-full before:w-full before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
-
-                    <img src="image/ss/file_upload.png" alt="" class="object-cover ">
-
-                </div>
-            </a>
-
-            <!-- Footer Components -->
-
-            <a href="../components/footer/footer.html">
-
-                <div
-                    class="relative   before:absolute before:content-['Footer'] before:flex before:justify-center before:items-center before:font-bold before:text-white before:text-xl before:h-full before:w-full before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
-
-                    <img src="image/ss/footer.png" alt="" class="object-cover ">
-
-                </div>
-            </a>
-
-            <!-- Image Gallery Components -->
-
-            <a href="../components/gallery/image_gallery.html">
-
-                <div
-                    class="relative   before:absolute before:content-['Image_Gallery'] before:flex before:justify-center before:items-center before:font-bold before:text-white before:text-xl before:h-full before:w-full before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
-
-                    <img src="image/ss/gallery.png" alt="" class="object-cover ">
-
-                </div>
-            </a>
-
-            <!-- product page Components -->
-
-            <a href="../components/Product_page_cloth/cloth.html">
-
-                <div
-                    class="relative   before:absolute before:content-['Cloth'] before:flex before:justify-center before:items-center before:font-bold before:text-white before:text-xl before:h-full before:w-full before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
-
-                    <img src="image/ss/product.png" alt="" class="object-cover ">
-
-                </div>
-            </a>
-
-            <!-- Watch components -->
-
-            <a href="../components/product_page_watch/product.html">
-
-                <div
-                    class="relative   before:absolute before:content-['Watch'] before:flex before:justify-center before:items-center before:font-bold before:text-white before:text-xl before:h-full before:w-full before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
-
-                    <img src="image/ss/watch.png" alt="" class="object-cover ">
-
-                </div>
-            </a>
-
-            <!-- Regstration Components -->
-
-            <a href="../components/responsive_registration_form/registration.html">
-
-                <div
-                    class="relative   before:absolute before:content-['Registration'] before:flex before:justify-center before:items-center before:font-bold before:text-white before:text-xl before:h-full before:w-full before:bg-yellow-400 rounded-md border-2 z-50 before:-translate-y-full overflow-hidden hover:before:translate-y-0 before:duration-700 cursor-pointer">
-
-                    <img src="image/ss/registration.png" alt="" class="object-cover ">
-
-                </div>
-            </a>
-
-
-        </div>
-
     </div>
     <!-- Portfolio Section End -->
 
-    <hr class="m-auto w-1/2" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(129, 129, 129, 0.75), rgba(0, 0, 0, 0));border: 0;
-  height: 1px;">
+
 
     <!-- contact section start  -->
-    <div id="contact"></div>
-    <div class=" lg:mx-[7%] m-auto mb-10 lg:mb-[10%] ">
+    <div class="hidden">
+        <div id="contact"></div>
+        <div class=" lg:mx-[7%] m-auto mb-10 lg:mb-[10%] ">
 
-        <!-- contact -->
-        <div
-            class="relative uppercase flex justify-center items-center md:items-center bg-slate-700 md:bg-inherit my-[10%] w-full h-8 font-extrabold text-slate-800 md:text-8xl lg:text-9xl text-opacity-0 md:text-opacity-100">
-            contact
-            <div class=" md:top-0 absolute text-white text-xl md:text-5xl lg:text-[50px]">
-                get in <span class="text-yellow-400">touch</span>
-            </div>
-        </div>
-
-        <!-- main contact section -->
-        <div class="grid lg:grid-cols-[35%_65%] grid-cols-1 mx-4 md:mx-20 gap-10">
-
-            <!-- contact detail section -->
-
-            <!-- first saection -->
-
-            <div class="flex flex-col gap-6 px-4">
-                <p class="uppercase text-xl md:text-3xl font-bold text-white">don't be shy !</p>
-                <p class="text-white">Feel free to get in touch with me. I am always open to discussing new
-                    projects,
-                    creative ideas or
-                    opportunities to be part of your visions.</p>
-
-                <div class="flex ">
-                    <span class="relative -left-2 sm:-left-4 overflow-hidden ml-2 sm:ml-4">
-                        <i class="ri-mail-open-fill text-2xl sm:text-3xl text-yellow-400 "></i>
-                    </span>
-                    <div>
-                        <p class="uppercase text-white  text-sm text-opacity-80 ">mail me</p>
-                        <p class="text-pretty text-white  font-bold">steve@gmail.com</p>
-                    </div>
-                </div>
-
-                <div class="flex ">
-                    <span class="relative -left-2 sm:-left-4 overflow-hidden ml-2 sm:ml-4">
-                        <i class="ri-phone-fill text-2xl sm:text-3xl bg-yellow-400 rounded-md"></i>
-                    </span>
-                    <div>
-                        <p class="uppercase text-white  text-sm text-opacity-80 ">call me</p>
-                        <p class="text-sm  text-white  font-bold">+91 12345 67890</p>
-                    </div>
-                </div>
-
-                <div>
-                    <a href="">
-                        <i
-                            class="ri-facebook-fill text-xl rounded-full p-2 text-white bg-slate-700  hover:bg-yellow-400 duration-300"></i>
-                    </a>
-                    <a href="">
-                        <i
-                            class="ri-twitter-fill text-xl rounded-full p-2 text-white bg-slate-700  hover:bg-yellow-400 duration-300"></i>
-                    </a>
-                    <a href="">
-
-                        <i
-                            class="ri-youtube-fill text-xl rounded-full p-2 text-white bg-slate-700  hover:bg-yellow-400 duration-300"></i>
-                    </a>
-                    <a href="">
-                        <i
-                            class="ri-instagram-fill text-xl rounded-full p-2 text-white bg-slate-700  hover:bg-yellow-400 duration-300"></i>
-                    </a>
+            <!-- contact -->
+            <div
+                class="relative uppercase flex justify-center items-center md:items-center bg-slate-700 md:bg-inherit my-[10%] w-full h-8 font-extrabold text-slate-800 md:text-8xl lg:text-9xl text-opacity-0 md:text-opacity-100">
+                contact
+                <div class=" md:top-0 absolute text-white text-xl md:text-5xl lg:text-[50px]">
+                    get in <span class="text-yellow-400">touch</span>
                 </div>
             </div>
 
-            <!-- second saection -->
+            <!-- main contact section -->
+            <div class="grid lg:grid-cols-[35%_65%] grid-cols-1 mx-4 md:mx-20 gap-10">
 
-            <div class="flex flex-col gap-4 md:gap-8 ">
-                <form action="" class="flex flex-col gap-8  ">
-                    <div class="flex justify-between flex-col md:flex-row gap-4">
+                <!-- contact detail section -->
 
-                        <input type="text" placeholder="YOUR NAME"
-                            class="bg-gray-800 w-full text-sm text-white h-12  py-2 rounded-full px-6 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-400 focus:duration-700">
+                <!-- first saection -->
 
-                        <input type="text" placeholder="YOUR EMAIL"
-                            class="bg-gray-800 text-sm w-full text-white h-12  py-2 rounded-full px-6  focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-400 focus:duration-700">
+                <div class="flex flex-col gap-6 px-4">
+                    <p class="uppercase text-xl md:text-3xl font-bold text-white">don't be shy !</p>
+                    <p class="text-white">Feel free to get in touch with me. I am always open to discussing new
+                        projects,
+                        creative ideas or
+                        opportunities to be part of your visions.</p>
 
-                        <input type="text" placeholder="YOUR SUBJECT"
-                            class="bg-gray-800 text-sm w-full text-white h-12  py-2 rounded-full px-6  focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-400 focus:duration-700">
-
+                    <div class="flex ">
+                        <span class="relative -left-2 sm:-left-4 overflow-hidden ml-2 sm:ml-4">
+                            <i class="ri-mail-open-fill text-2xl sm:text-3xl text-yellow-400 "></i>
+                        </span>
+                        <div>
+                            <p class="uppercase text-white  text-sm text-opacity-80 ">mail me</p>
+                            <p class="text-pretty text-white  font-bold">steve@gmail.com</p>
+                        </div>
                     </div>
-                    <textarea name="message" id="messag" placeholder="your message" cols="100" rows="7"
-                        class="bg-gray-800 rounded-3xl w-full text-white focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-400 focus:duration-700">
+
+                    <div class="flex ">
+                        <span class="relative -left-2 sm:-left-4 overflow-hidden ml-2 sm:ml-4">
+                            <i class="ri-phone-fill text-2xl sm:text-3xl bg-yellow-400 rounded-md"></i>
+                        </span>
+                        <div>
+                            <p class="uppercase text-white  text-sm text-opacity-80 ">call me</p>
+                            <p class="text-sm  text-white  font-bold">+91 12345 67890</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="">
+                            <i
+                                class="ri-facebook-fill text-xl rounded-full p-2 text-white bg-slate-700  hover:bg-yellow-400 duration-300"></i>
+                        </a>
+                        <a href="">
+                            <i
+                                class="ri-twitter-fill text-xl rounded-full p-2 text-white bg-slate-700  hover:bg-yellow-400 duration-300"></i>
+                        </a>
+                        <a href="">
+
+                            <i
+                                class="ri-youtube-fill text-xl rounded-full p-2 text-white bg-slate-700  hover:bg-yellow-400 duration-300"></i>
+                        </a>
+                        <a href="">
+                            <i
+                                class="ri-instagram-fill text-xl rounded-full p-2 text-white bg-slate-700  hover:bg-yellow-400 duration-300"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- second saection -->
+
+                <div class="flex flex-col gap-4 md:gap-8 ">
+                    <form action="" class="flex flex-col gap-8  ">
+                        <div class="flex justify-between flex-col md:flex-row gap-4">
+
+                            <input type="text" placeholder="YOUR NAME"
+                                class="bg-gray-800 w-full text-sm text-white h-12  py-2 rounded-full px-6 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-400 focus:duration-700">
+
+                            <input type="text" placeholder="YOUR EMAIL"
+                                class="bg-gray-800 text-sm w-full text-white h-12  py-2 rounded-full px-6  focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-400 focus:duration-700">
+
+                            <input type="text" placeholder="YOUR SUBJECT"
+                                class="bg-gray-800 text-sm w-full text-white h-12  py-2 rounded-full px-6  focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-400 focus:duration-700">
+
+                        </div>
+                        <textarea name="message" id="messag" placeholder="your message" cols="100" rows="7"
+                            class="bg-gray-800 rounded-3xl w-full text-white focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-yellow-400 focus:duration-700">
                     </textarea>
 
-                </form>
+                    </form>
 
-                <div class="w-fit mt-6 ">
+                    <div class="w-fit mt-6 ">
 
-                    <div
-                        class="relative before:top-0 before:left-0 before:absolute before:content-[''] border-2 border-yellow-400 before:bg-yellow-400 rounded-full before:rounded-full before:w-full before:h-full before:translate-x-full hover:before:translate-x-0 before:duration-500 cursor-pointer overflow-hidden">
-                        <a href=""
-                            class="relative uppercase z-50 px-6 py-4 font-bold text-sm text-white lg:text-sm">send
-                            message</a>
+                        <div
+                            class="relative before:top-0 before:left-0 before:absolute before:content-[''] border-2 border-yellow-400 before:bg-yellow-400 rounded-full before:rounded-full before:w-full before:h-full before:translate-x-full hover:before:translate-x-0 before:duration-500 cursor-pointer overflow-hidden">
+                            <a href=""
+                                class="relative uppercase z-50 px-6 py-4 font-bold text-sm text-white lg:text-sm">send
+                                message</a>
 
-                        <i
-                            class="inline-block relative ri-send-plane-fill z-50 bg-yellow-400 px-4 py-3 rounded-full text-sm text-white lg:text-lg"></i>
+                            <i
+                                class="inline-block relative ri-send-plane-fill z-50 bg-yellow-400 px-4 py-3 rounded-full text-sm text-white lg:text-lg"></i>
+                        </div>
+
                     </div>
-
                 </div>
             </div>
         </div>
-    </div>
 
+    </div>
     <!-- contact section end  -->
 
-    <hr class="m-auto w-1/2" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(129, 129, 129, 0.75), rgba(0, 0, 0, 0));border: 0;
-  height: 1px;">
+
 
     <!-- Blog section start -->
-    <div id="blog"></div>
-    <div class="">
+    <div class="hidden" id="blogpage">
+        <div class="">
 
-        <div
-            class="relative uppercase flex justify-center items-center md:items-center bg-slate-700 md:bg-inherit my-[8%] w-full h-8 font-extrabold text-slate-800 md:text-8xl lg:text-9xl text-opacity-0 md:text-opacity-100">
-            posts
-            <div class=" md:top-0 absolute text-white text-xl md:text-5xl lg:text-[50px] font-bold">
-                my <span class="text-yellow-400">blog</span>
+            <div
+                class="relative uppercase flex justify-center items-center md:items-center bg-slate-700 md:bg-inherit my-[8%] w-full h-8 font-extrabold text-slate-800 md:text-8xl lg:text-9xl text-opacity-0 md:text-opacity-100">
+                posts
+                <div class=" md:top-0 absolute text-white text-xl md:text-5xl lg:text-[50px] font-bold">
+                    my <span class="text-yellow-400">blog</span>
+                </div>
             </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 w-[79%] m-auto mb-10">
+
+                <!-- card 1 -->
+
+                <div class="overflow-hidden object-cover rounded-md bg-gray-800">
+
+                    <div class="overflow-hidden">
+                        <a href="">
+                            <img src="./image/blog-post-1.jpg" alt=""
+                                class="transition-all duration-300 hover:scale-125 hover:duration-300">
+                        </a>
+                    </div>
+
+                    <div class="py-4 px-6 border-t-4 border-yellow-400">
+                        <a href=""
+                            class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
+                            How to Own Your Audience by Creating an Email List
+                        </a>
+                        <p class="text-white opacity-90 mt-4 text-lg ">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing
+                            elit, sed
+                            do
+                            eiusmod tempor incididunt ut
+                            labore ...</p>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+
+                <div class="overflow-hidden object-cover rounded-md bg-gray-800">
+
+                    <div class="overflow-hidden">
+                        <a href="">
+                            <img src="./image/blog-post-2.jpg" alt=""
+                                class="transition-all duration-300 hover:scale-125 hover:duration-300">
+                        </a>
+                    </div>
+
+                    <div class="py-4 px-6 border-t-4 border-yellow-400">
+                        <a href=""
+                            class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
+                            Top 10 Toolkits for Deep Learning in 2020
+                        </a>
+                        <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed
+                            do
+                            eiusmod tempor incididunt ut
+                            labore ...</p>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+
+                <div class="overflow-hidden object-cover rounded-md bg-gray-800">
+
+                    <div class="overflow-hidden">
+                        <a href="">
+                            <img src="./image/blog-post-3.jpg" alt=""
+                                class="transition-all duration-300 hover:scale-125 hover:duration-300">
+                        </a>
+                    </div>
+
+                    <div class="py-4 px-6 border-t-4 border-yellow-400">
+                        <a href=""
+                            class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
+                            Everything You Need to Know About Web Accessibility
+                        </a>
+                        <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed
+                            do
+                            eiusmod tempor incididunt ut
+                            labore ...</p>
+                    </div>
+                </div>
+
+                <!-- card 4 -->
+
+                <div class="overflow-hidden object-cover rounded-md bg-gray-800">
+
+                    <div class="overflow-hidden">
+                        <a href="">
+                            <img src="./image/blog-post-4.jpg" alt=""
+                                class="transition-all duration-300 hover:scale-125 hover:duration-300">
+                        </a>
+                    </div>
+
+                    <div class="py-4 px-6 border-t-4 border-yellow-400">
+                        <a href=""
+                            class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
+                            How to Inject Humor & Comedy Into Your Brand
+                        </a>
+                        <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed
+                            do
+                            eiusmod tempor incididunt ut
+                            labore ...</p>
+                    </div>
+                </div>
+
+                <!-- card 5 -->
+
+                <div class="overflow-hidden object-cover rounded-md bg-gray-800">
+
+                    <div class="overflow-hidden">
+                        <a href="">
+                            <img src="./image/blog-post-5.jpg" alt=""
+                                class="transition-all duration-300 hover:scale-125 hover:duration-300">
+                        </a>
+                    </div>
+
+                    <div class="py-4 px-6 border-t-4 border-yellow-400">
+                        <a href=""
+                            class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
+                            Women in Web Design: How To Achieve Success
+                        </a>
+                        <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed
+                            do
+                            eiusmod tempor incididunt ut
+                            labore ...</p>
+                    </div>
+                </div>
+
+                <!-- card 6 -->
+
+                <div class="overflow-hidden object-cover rounded-md bg-gray-800">
+
+                    <div class="overflow-hidden">
+                        <a href="">
+                            <img src="./image/blog-post-6.jpg" alt=""
+                                class="transition-all duration-300 hover:scale-125 hover:duration-300">
+                        </a>
+                    </div>
+
+                    <div class="py-4 px-6 border-t-4 border-yellow-400">
+                        <a href=""
+                            class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
+                            Evergreen versus topical content: An overview
+                        </a>
+                        <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed
+                            do
+                            eiusmod tempor incididunt ut
+                            labore ...</p>
+                    </div>
+                </div>
+
+
+            </div>
+
         </div>
-
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 w-[79%] m-auto mb-10">
-
-            <!-- card 1 -->
-
-            <div class="overflow-hidden object-cover rounded-md bg-gray-800">
-
-                <div class="overflow-hidden">
-                    <a href="">
-                        <img src="./image/blog-post-1.jpg" alt=""
-                            class="transition-all duration-300 hover:scale-125 hover:duration-300">
-                    </a>
-                </div>
-
-                <div class="py-4 px-6 border-t-4 border-yellow-400">
-                    <a href=""
-                        class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
-                        How to Own Your Audience by Creating an Email List
-                    </a>
-                    <p class="text-white opacity-90 mt-4 text-lg ">Lorem ipsum dolor sit amet, consectetur
-                        adipiscing
-                        elit, sed
-                        do
-                        eiusmod tempor incididunt ut
-                        labore ...</p>
-                </div>
-            </div>
-
-            <!-- card 2 -->
-
-            <div class="overflow-hidden object-cover rounded-md bg-gray-800">
-
-                <div class="overflow-hidden">
-                    <a href="">
-                        <img src="./image/blog-post-2.jpg" alt=""
-                            class="transition-all duration-300 hover:scale-125 hover:duration-300">
-                    </a>
-                </div>
-
-                <div class="py-4 px-6 border-t-4 border-yellow-400">
-                    <a href=""
-                        class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
-                        Top 10 Toolkits for Deep Learning in 2020
-                    </a>
-                    <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit, sed
-                        do
-                        eiusmod tempor incididunt ut
-                        labore ...</p>
-                </div>
-            </div>
-
-            <!-- card 3 -->
-
-            <div class="overflow-hidden object-cover rounded-md bg-gray-800">
-
-                <div class="overflow-hidden">
-                    <a href="">
-                        <img src="./image/blog-post-3.jpg" alt=""
-                            class="transition-all duration-300 hover:scale-125 hover:duration-300">
-                    </a>
-                </div>
-
-                <div class="py-4 px-6 border-t-4 border-yellow-400">
-                    <a href=""
-                        class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
-                        Everything You Need to Know About Web Accessibility
-                    </a>
-                    <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit, sed
-                        do
-                        eiusmod tempor incididunt ut
-                        labore ...</p>
-                </div>
-            </div>
-
-            <!-- card 4 -->
-
-            <div class="overflow-hidden object-cover rounded-md bg-gray-800">
-
-                <div class="overflow-hidden">
-                    <a href="">
-                        <img src="./image/blog-post-4.jpg" alt=""
-                            class="transition-all duration-300 hover:scale-125 hover:duration-300">
-                    </a>
-                </div>
-
-                <div class="py-4 px-6 border-t-4 border-yellow-400">
-                    <a href=""
-                        class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
-                        How to Inject Humor & Comedy Into Your Brand
-                    </a>
-                    <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit, sed
-                        do
-                        eiusmod tempor incididunt ut
-                        labore ...</p>
-                </div>
-            </div>
-
-            <!-- card 5 -->
-
-            <div class="overflow-hidden object-cover rounded-md bg-gray-800">
-
-                <div class="overflow-hidden">
-                    <a href="">
-                        <img src="./image/blog-post-5.jpg" alt=""
-                            class="transition-all duration-300 hover:scale-125 hover:duration-300">
-                    </a>
-                </div>
-
-                <div class="py-4 px-6 border-t-4 border-yellow-400">
-                    <a href=""
-                        class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
-                        Women in Web Design: How To Achieve Success
-                    </a>
-                    <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit, sed
-                        do
-                        eiusmod tempor incididunt ut
-                        labore ...</p>
-                </div>
-            </div>
-
-            <!-- card 6 -->
-
-            <div class="overflow-hidden object-cover rounded-md bg-gray-800">
-
-                <div class="overflow-hidden">
-                    <a href="">
-                        <img src="./image/blog-post-6.jpg" alt=""
-                            class="transition-all duration-300 hover:scale-125 hover:duration-300">
-                    </a>
-                </div>
-
-                <div class="py-4 px-6 border-t-4 border-yellow-400">
-                    <a href=""
-                        class="text-xl text-white font-extrabold tracking-wider hover:text-yellow-400 hover:duration-300 ">
-                        Evergreen versus topical content: An overview
-                    </a>
-                    <p class="text-white opacity-90 mt-4 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit, sed
-                        do
-                        eiusmod tempor incididunt ut
-                        labore ...</p>
-                </div>
-            </div>
-
-
-        </div>
-
     </div>
 
     <!-- Blog section end -->
 
+    <script src="web.js"></script>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <hr class="m-auto w-1/2" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(129, 129, 129, 0.75), rgba(0, 0, 0, 0));border: 0;
+  height: 1px;"> -->

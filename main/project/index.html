@@ -34,11 +34,11 @@
     <div class="" id="nav">
 
         <div
-            class="flex flex-col text-2xl fixed -right-10  justify-center items-center  h-full w-[10%] gap-6 text-slate-900 pr-12">
+            class="flex flex-col text-2xl fixed -right-10  justify-center items-center  h-full w-[10%] gap-6 text-slate-900 pr-12 top-10">
 
             <div class="w-[137px] overflow-hidden mr-24 rounded-full">
-                <div
-                    class=" rounded-full  flex justify-end items-center relative before:absolute before:content-['Home'] before:h-full before:w-full right-0  before:left-0 before:text-lg before:flex before:justify-start before:items-center before:bg-yellow-400 before:pl-4 before:rounded-full before:text-white before:translate-x-full hover:before:translate-x-0 before:duration-500  ">
+                <div class=" rounded-full  flex justify-end items-center relative before:absolute before:content-['Home'] before:h-full before:w-full right-0  before:left-0 before:text-lg before:flex before:justify-start before:items-center before:bg-yellow-400 before:pl-4 before:rounded-full before:text-white before:translate-x-full hover:before:translate-x-0 before:duration-500"
+                    id="homebtn">
 
                     <a href="#home" class="relative py-1 inline-block bg-yellow-400 rounded-full">
                         <i class="ri-home-gear-fill rounded-full p-1 md:p-2 text-xs md:text-2xl text-slate-800"></i>
@@ -47,8 +47,8 @@
             </div>
 
 
-            <div
-                class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['About'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700">
+            <div class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['About'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700"
+                id="aboutbtn">
 
                 <a href="#about" class="flex justify-end items-center relative z-50 ">
                     <i
@@ -56,16 +56,16 @@
                 </a>
             </div>
 
-            <div
-                class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['Portfolio'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700">
+            <div class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['Portfolio'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700"
+                id="portfoliobtn">
                 <a href="#portfolio" class="flex justify-end items-center relative z-50 ">
                     <i
                         class="ri-briefcase-4-fill  bg-yellow-400 rounded-full px-2 py-1 text-xs md:text-2xl text-slate-800"></i>
                 </a>
             </div>
 
-            <div
-                class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['Contact'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700">
+            <div class="relative w-[138px] rounded-full  before:flex before:justify-start before:items-center before:absolute before:content-['Contact'] before:z-50  before:bg-yellow-400 before:w-full before:h-full  before:rounded-full before:translate-x-full hover:before:translate-x-0 overflow-hidden mr-24 before:text-lg before:text-white before:pl-4 before:duration-700"
+                id="contactbtn">
                 <a href="#contact" class="flex justify-end items-center relative z-50 ">
                     <i
                         class="ri-mail-open-fill  bg-yellow-400 rounded-full px-2 py-1 text-xs md:text-2xl text-slate-800"></i>
@@ -91,7 +91,7 @@
             class="relative after:-left-24 after:absolute after:content-[''] grid lg:grid-cols-[45%_55%] grid-rows-[40%_60%] lg:grid-rows-1 lg:after:bg-yellow-400 after:w-1/4 after:skew-x-12 lg:max-w-[90%] h-svh after:h-full overflow-hidden ">
 
             <div class="relative z-50 flex justify-center items-center my-auto">
-                <img src="./image/person_1.jpg" alt="profile image"
+                <img src="./image/person.jpg" alt="profile image"
                     class="lg:ml-10 rounded-full lg:rounded-md lg:w-[80%] h-[200px] lg:h-[calc(100vh-90px)] aspect-square object-cover">
             </div>
 
@@ -130,7 +130,7 @@
     <!-- main page section end -->
 
     <!-- About Section start -->
-    <div class="hidden">
+    <div class="hidden" id="aboutpage">
         <div class="flex flex-col gap-[10%] m-auto w-[90%] " id="about">
             <!-- about main div start-->
 
@@ -457,7 +457,7 @@
 
 
     <!-- Portfolio Section start -->
-    <div class="hidden">
+    <div class="hidden" id="portfoliopage">
 
 
         <div class="m-auto w-[86%]">
@@ -628,9 +628,8 @@
 
 
     <!-- contact section start  -->
-    <div class="hidden">
-        <div id="contact"></div>
-        <div class=" lg:mx-[7%] m-auto mb-10 lg:mb-[10%] ">
+    <div class="hidden h-fit" id="contactpage">
+        <div class=" lg:mx-[7%] m-auto mb-10 ">
 
             <!-- contact -->
             <div

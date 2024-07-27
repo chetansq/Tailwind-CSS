@@ -9,72 +9,112 @@
     <link rel="stylesheet" href="calc.css">
 
     <style>
-        p {
-
-            padding: 1rem;
-            margin: 10px;
-            border-radius: 10%;
-            font-size: larger;
-            font-weight: bold;
-            background-color: black;
-            color: white;
-            transition-duration: 700ms;
-        }
-
-        p:hover {
+        button:hover {
             color: red;
             background-color: azure;
             transition-duration: 700ms;
 
-        }
-
-        .pad {
-            padding: 20px 26px;
         }
     </style>
 
 </head>
 
 <body class="bg-black">
-    <div class="grid grid-cols-1 grid-rows-6  w-1/4  m-auto p-6">
-        <div class="w-full">
-            <input type="text" placeholder="0"
-                class="w-full text-right text-2xl p-2 shadow-inner shadow-black rounded-md">
-        </div>
-        <div class=" flex justify-around items-center">
-            <p class="pad">C</p>
-            <p class="pad">%</p>
-            <p class="pad">/</p>
-            <p class="pad">*</p>
-        </div>
+    <div class="flex justify-center items-center p-5 h-svh">
+        <div
+            class="place-items-center border-2 border-white grid grid-rows-[10%_90%] shadow-inner shadow-white p-4 md:p-8 rounded-3xl w-[400px] h-[600px]">
+            <div class="w-full">
+                <input type="text" placeholder="0" id="dis"
+                    class="text-right shadow-black shadow-inner p-2 rounded-md w-full text-2xl">
+            </div>
+            <div
+                class="place-items-center gap-2 *:border-gray-800 grid grid-cols-4 grid-rows-5 m-auto mt-3 *:p-4 *:border w-full h-full *:text-white *:text-xl *:uppercase">
 
-        <div class=" flex justify-around items-center">
-            <p class="pad">7</p>
-            <p class="pad">8</p>
-            <p class="pad">9</p>
-            <p class="pad"> - </p>
-        </div>
+                <button class="rounded-2xl w-full h-full" id="c">
+                    <p>C</p>
+                </button>
 
-        <div class=" flex justify-around items-center">
-            <p class="pad">4</p>
-            <p class="pad">5</p>
-            <p class="pad">6</p>
-            <p class="pad">+</p>
-        </div>
+                <button class="rounded-2xl w-full h-full">
+                    <p>AC</p>
+                </button>
 
-        <div class=" flex justify-around items-center">
-            <p class="pad">1</p>
-            <p class="pad">2</p>
-            <p class="pad">3</p>
-            <p class="pad">=</p>
-        </div>
-        <div class=" flex justify-around items-center">
-            <p class="pad">0</p>
-            <p class="pad">.</p>
-            <p>de</p>
-            <p>ac</p>
+                <button class="rounded-2xl w-full h-full" id="mod">
+                    <p>%</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>/</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>7</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>8</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>9</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>*</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>4</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>5</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>6</p>
+                </button>
+                
+                <button class="rounded-2xl w-full h-full">
+                    <p>-</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="one">
+                    <p>1</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>2</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>3</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>+</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>0</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>00</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>.</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>=</p>
+                </button>
+
+            </div>
         </div>
     </div>
+
+    <script src="calc.js"></script>
 </body>
 
 </html>

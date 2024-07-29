@@ -120,7 +120,6 @@ equal.addEventListener("click", () => {
     document.getElementById("dis").value = all;
 })
 
-
 allclr.addEventListener("click", () => {
     document.getElementById('dis').value = "";
 })
@@ -130,7 +129,6 @@ clr.addEventListener("click", () => {
     let del = delete (1);
     document.getElementById('dis'), value = del;
 })
-
 
 allclr.addEventListener("click", e => {
     document.getElementById('dis').value = "";

@@ -144,15 +144,17 @@ let symbols = document.querySelectorAll(".sym");
 
 let secondout = document.getElementById("secondout");
 
+let allclr = document.querySelector(".allclr");
+
 let firstValue;
 let secondValue;
-let sy;
+let symbol;
 
 symbols.forEach(ele => {
     ele.addEventListener("click", function () {
         firstValue = output.innerText;
         // console.log(firstValue);
-        sy = ele.innerText;
+        symbol = ele.innerText;
         // console.log(sy);
         output.innerText += ele.innerText;
 
@@ -161,16 +163,22 @@ symbols.forEach(ele => {
     })
 });
 
-
-
-
-
 numbers.forEach(ele => {
 
     ele.addEventListener("click", function () {
         output.innerText += ele.innerText;
     })
 });
+
+allclr.addEventListener("click", () => {
+    output.innerText = "";
+    secondout.innerText = "";
+})
+
+equal.addEventListener("click", () => {
+
+})
+
 
 
 

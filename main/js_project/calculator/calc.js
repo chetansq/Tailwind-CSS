@@ -156,16 +156,27 @@ let equal = document.getElementById("equal");
 let firstValue;
 let secondValue;
 let symbol;
-
+var c = 0;
+var total;
 symbols.forEach(ele => {
     ele.addEventListener("click", function () {
-        firstValue = output.innerText;
+        if (c == 0) {
+
+            firstValue = output.innerText;
+            console.log("first value", firstValue);
+        } else {
+
+            firstValue = total;
+            console.log("first value", firstValue);
+        }
+
 
         symbol = ele.innerText;
-        // console.log(sy);
+        console.log("symbol", symbol);
         output.innerText += ele.innerText;
 
         secondout.innerText = output.innerText;
+
         output.innerText = '';
     })
 });
@@ -174,6 +185,7 @@ numbers.forEach(ele => {
 
     ele.addEventListener("click", function () {
         output.innerText += ele.innerText;
+        // console.log("second value", output);
     })
 });
 
@@ -186,26 +198,43 @@ equal.addEventListener("click", () => {
     secondValue = output.innerText;
     firstValue = +firstValue;
     secondValue = +secondValue;
-    let total;
+
+    console.log("second value", secondValue);
+
     switch (symbol) {
         case '+':
+
             total = firstValue + secondValue;
+            c++;
+            // console.log(c);
             break;
+
         case '-':
             total = firstValue - secondValue;
+            c++;
             break;
+
         case '*':
             total = firstValue * secondValue;
+            c++;
             break;
+
         case '/':
             total = firstValue / secondValue;
+            c++;
             break;
+
         case '%':
             total = firstValue % secondValue;
+            c++;
             break;
     }
 
     secondout.innerText = total;
+    output.innerText = total;
+    // firstValue.innerText = output.innerText;
+    // console.log("total is ", total);
+    // console.log("first is ", output);
     output.innerText = "";
 
 })

@@ -1,9 +1,8 @@
 let clock = document.getElementById("clock");
-let btn = document.getElementById("btn");
 
 console.log(clock);
 
-btn.addEventListener("click", () => {
+function clock_on() {
 
     setInterval(interval, 1000);
 
@@ -20,7 +19,7 @@ btn.addEventListener("click", () => {
     }
 
 
-});
-clock.style.border = "2px solid white";
+};
+
 
 

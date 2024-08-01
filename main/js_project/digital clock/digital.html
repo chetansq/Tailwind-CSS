@@ -11,33 +11,31 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            /* height: 100svh; */
-            background-color: black;
+            height: 90svh;
+            background-image: url(../image/2d-graphic-colorful-wallpaper-with-grainy-gradients.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
             color: white;
-            gap: 20px;
+
+            /* background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%); */
         }
 
-        button {
-            background-color: royalblue;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 10%;
-            border: 0px;
-
-        }
 
         div {
-            font-size: larger;
+            font-size: xxx-large;
             visibility: hidden;
             padding: 10px 20px;
+            font-weight: bold;
+            border: 1px solid black;
+            color: black;
+            /* border: none; */
         }
     </style>
 </head>
 
-<body>
-    <!-- <button id="btn">
-        Digital Clock
-    </button> -->
+<body onload="clock_on()">
+
     <div id="clock">
     </div>
     <script src="clock.js"></script>

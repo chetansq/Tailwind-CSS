@@ -200,6 +200,9 @@ equal.addEventListener("click", () => {
         case '/':
             total = firstValue / secondValue;
             break;
+        case '%':
+            total = firstValue % secondValue;
+            break;
     }
 
     secondout.innerText = total;

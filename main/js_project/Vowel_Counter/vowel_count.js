@@ -37,3 +37,5 @@ function Count() {
     word.innerText = count1;
 
 }
+
+

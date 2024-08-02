@@ -11,23 +11,29 @@
             background-image: url("../image/2d-graphic-colorful-wallpaper-with-grainy-gradients.jpg");
             background-repeat: no-repeat;
             background-size: cover;
+            background-blend-mode: color;
         }
     </style>
 
 </head>
 
-<body class="h-100svh flex flex-col justify-center items-center gap-10">
+<body class="h-screen flex flex-col justify-center items-center gap-10">
     <div class="">
-        <input type="text" placeholder="Enter Text.." id="text_">
-        <button class="border-2 px-4 py-2 rounded-full" onclick="Count()" id="btn">click</button>
+        <input type="text" placeholder="Enter Text.." id="text_" class="p-4 border-red-100 rounded-md">
+        <button class="hover:bg-red-200 px-8 py-2 rounded-md font-bold text-2xl" onclick="Count()" id="btn">click</button>
     </div>
-    <div class="flex flex-col gap-2">
-        coutn of vowels:
-        <p id="output">
+    <div class="flex flex-col gap-2 font-bold items-start justify-start">
+
+        <p>
+            Count of Vowels:
+            <span id="output"></span>
         </p>
-        count of words:
-        <p id="word">
+
+        <p>
+            count of words:
+            <span id="word"></span>
         </p>
+
     </div>
 
     <script src="vowel_count.js"></script>

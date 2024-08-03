@@ -6,6 +6,8 @@ let celcius = document.getElementById("cel");
 
 function fahrenheit_() {
     fahrenheit.innerText = (input_text.value * (9 / 5) + 32).toFixed(2);
+
+
 }
 
 function celcius_() {

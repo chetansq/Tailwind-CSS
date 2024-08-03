@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="to_do.css">
+</head>
+
+<body class="h-screen  bg-slate-400 flex justify-center items-center">
+    <div class="border-2 w-1/2 flex flex-col p-4 m-auto h-1/2">
+        <div class=" w-full flex  gap-4 ">
+            <input type="text" class=" w-full h-fit px-4 py-2 rounded-md" id="text" placeholder="Enter Text...">
+            <button class="bg-white text-black h-fit px-4 py-2 rounded-full shadow-inner shadow-black font-semibold "
+                onclick="create_()">Create</button>
+
+        </div>
+        <div class="py-4">
+            <p id="p"></p>
+        </div>
+
+    </div>
+    <script src="todo.js"></script>
+</body>
+
+</html>

@@ -6,18 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TO DO LIST</title>
     <link rel="stylesheet" href="to_do.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .paragraph {
+            background-color: lightslategray;
+            width: 100svw;
+            margin-right: 5px;
+            padding: 6px;
+            color: white;
+        }
+
+        .deleteButton {
+            padding: 10px;
+            background-color: rgb(159, 166, 173);
+        }
+
+        .deleteButton:hover {
+            background-color: white;
+        }
+    </style>
+
 </head>
 
-<body class="h-screen  bg-slate-400 flex justify-center items-center">
-    <div class="border-2 w-1/2 flex flex-col p-4 m-auto h-1/2">
-        <div class=" w-full flex  gap-4 ">
-            <input type="text" class=" w-full h-fit px-4 py-2 rounded-md" id="text" placeholder="Enter Text...">
-            <button class="bg-white text-black h-fit px-4 py-2 rounded-full shadow-inner shadow-black font-semibold "
+<body class="flex justify-center items-center bg-slate-400 h-screen">
+    <div class="flex flex-col border-2 bg-slate-500 m-auto p-4 rounded-2xl w-1/2 h-1/2">
+        <div class="flex gap-4 w-full">
+            <input type="text" class="px-4 py-2 rounded-md w-full h-fit" id="text" placeholder="Enter Text...">
+            <button class="bg-white shadow-black shadow-inner px-4 py-2 rounded-full h-fit font-semibold text-black"
                 onclick="create_()">Create</button>
 
         </div>
-        <div class="py-4">
-            <p id="p"></p>
+        <div id="wrapper" class="py-4 overflow-auto">
         </div>
 
     </div>

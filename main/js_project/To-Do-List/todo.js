@@ -30,12 +30,14 @@ document.getElementById("wrapper").addEventListener("click", (add) => {
             add.target.parentElement.firstChild.setAttribute("contenteditable", "false");
             add.target.parentElement.firstChild.style.backgroundColor = "rgb(145, 159, 173)";
             add.target.parentElement.firstChild.style.color = "white";
+            add.target.style.backgroundColor = "rgb(159, 166, 173)";
 
         }
         else {
             add.target.parentElement.firstChild.setAttribute("contenteditable", "true");
             add.target.parentElement.firstChild.style.backgroundColor = "lightgray";
             add.target.parentElement.firstChild.style.color = "black";
+            add.target.style.backgroundColor = "white";
 
         }
     }

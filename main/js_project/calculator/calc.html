@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+
+    <link rel="stylesheet" href="calc.css">
+
+    <style>
+        button:hover {
+            color: red;
+            background-color: azure;
+            transition-duration: 700ms;
+
+        }
+    </style>
+
+</head>
+
+<body class="bg-black">
+    <!-- <div class="flex justify-center items-center p-5 h-svh">
+        <div
+            class="place-items-center border-2 border-white grid grid-rows-[10%_90%] shadow-inner shadow-white p-4 md:p-8 rounded-3xl w-[400px] h-[600px]">
+            <div class="w-full">
+                <input type="text" placeholder="0" id="dis"
+                    class="text-right shadow-black shadow-inner p-2 rounded-md w-full text-2xl">
+            </div>
+            <div
+                class="place-items-center gap-2 *:border-gray-800 grid grid-cols-4 grid-rows-5 m-auto mt-3 *:p-4 *:border w-full h-full *:text-white *:text-xl *:uppercase">
+
+                <button class="rounded-2xl w-full h-full" id="clr">
+                    <p>C</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="allclr">
+                    <p>AC</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="module">
+                    <p>%</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="divide">
+                    <p>/</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="seven">
+                    <p>7</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="eight">
+                    <p>8</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="nine">
+                    <p>9</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="multiply">
+                    <p>*</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="four">
+                    <p>4</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="five">
+                    <p>5</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="six">
+                    <p>6</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="sub">
+                    <p>-</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="one">
+                    <p>1</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="two">
+                    <p>2</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="three">
+                    <p>3</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="addition">
+                    <p>+</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="zero">
+                    <p>0</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="dzero">
+                    <p>00</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="dot">
+                    <p>.</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full" id="equal">
+                    <p>=</p>
+                </button>
+
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <div class="flex justify-center items-center p-5 h-svh">
+        <div
+            class="place-items-center border-2 border-white grid grid-rows-[10%_90%] shadow-inner shadow-white p-4 md:p-8 rounded-3xl w-[400px] h-[600px]">
+            <div class="w-full">
+                <!-- <input type="text" placeholder="0" id="output"
+                    class="text-right shadow-black shadow-inner p-2 rounded-md w-full text-2xl"> -->
+                <div id="secondout" class="text-right shadow-black shadow-inner rounded-md w-full text-2xl text-white">
+
+                </div>
+
+                <div id="output" class="text-right shadow-black shadow-inner p-2 rounded-md w-full text-2xl text-white">
+                </div>
+            </div>
+            <div
+                class="place-items-center gap-2 *:border-gray-800 grid grid-cols-4 grid-rows-5 m-auto mt-3 *:p-4 *:border w-full h-full *:text-white *:text-xl *:uppercase">
+
+                <button class="rounded-2xl w-full h-full">
+                    <p>C</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full allclr">
+                    <p>AC</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc sym">
+                    <p>%</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc sym">
+                    <p>/</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc num">
+                    <p>7</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc num">
+                    <p>8</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc num">
+                    <p>9</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc sym">
+                    <p>*</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc num">
+                    <p>4</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc num">
+                    <p>5</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc num">
+                    <p>6</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc sym">
+                    <p>-</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc num">
+                    <p>1</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc num">
+                    <p>2</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc num">
+                    <p>3</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc sym">
+                    <p>+</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc num">
+                    <p>0</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc num">
+                    <p>00</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc num">
+                    <p>.</p>
+                </button>
+
+                <button class="rounded-2xl w-full h-full calc" id="equal">
+                    <p>=</p>
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+
+</html>

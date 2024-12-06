@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertor</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* margin-top: 100px; */
+            height: 100svh;
+            gap: 20px;
+            font-size: x-large;
+            background-color: antiquewhite;
+            background-image: linear-gradient(to right top, #aaa09a, #b78a72, #c1714f, #c85332, #cf221b);
+        }
+
+        button {
+            padding: 4px 10px;
+            background: #000;
+            color: #fff;
+            font-size: large;
+            border: none;
+            border-radius: 2pc;
+
+            &:hover {
+                
+                background-color: lightcoral;
+                
+            }
+        }
+
+        #fan_div {
+            display: flex;
+            gap: 10px;
+        }
+
+        #cel_div {
+            display: flex;
+            gap: 10px;
+        }
+
+        input {
+            font-size: large;
+            border: none;
+        }
+
+   
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <input type="number" id="text" placeholder="enter a number..">
+
+        <button onclick="fahrenheit_()">Celcius To Fahrenheit</button>
+        <button onclick="celcius_()">Fahrenheit To Celcius</button>
+    </div>
+
+    <div>
+        <div id="fan_div">
+            Fahrenheit : <span id="fan"></span>
+        </div>
+
+        <div id="cel_div">
+            Celcius :<span id="cel"></span>
+        </div>
+    </div>
+    <script src="convert.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90svh;
+            background-image: url(../image/2d-graphic-colorful-wallpaper-with-grainy-gradients.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+
+            /* background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%); */
+        }
+
+
+        div {
+            font-size: xxx-large;
+            padding: 10px 20px;
+            font-weight: bold;
+            border: 1px solid black;
+            color: black;
+            /* border: none; */
+        }
+    </style>
+</head>
+
+<body onload="clock_on()">
+
+    <div id="clock">
+    </div>
+    <script src="clock.js"></script>
+</body>
+
+</html>

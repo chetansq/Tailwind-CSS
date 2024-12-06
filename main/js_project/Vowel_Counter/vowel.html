@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Vowel Counter</title>
+    <link rel="stylesheet" href="vowel.css">
+    <style>
+        body {
+            background-image: url("../image/2d-graphic-colorful-wallpaper-with-grainy-gradients.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: color;
+        }
+    </style>
+
+</head>
+
+<body class="h-screen flex flex-col justify-center items-center gap-10">
+    <div class="">
+        <input type="text" placeholder="Enter Text.." id="text_" class="p-4 border-red-100 rounded-md">
+        <button class="hover:bg-red-200 px-8 py-2 rounded-md font-bold text-2xl" onclick="Count()" id="btn">click</button>
+    </div>
+    <div class="flex flex-col gap-2 font-bold items-start justify-start">
+
+        <p>
+            Count of Vowels:
+            <span id="output"></span>
+        </p>
+
+        <p>
+            count of words:
+            <span id="word"></span>
+        </p>
+
+    </div>
+
+    <script src="vowel_count.js"></script>
+</body>
+
+</html>
